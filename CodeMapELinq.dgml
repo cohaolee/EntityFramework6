@@ -1,201 +1,275 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DirectedGraph DataVirtualized="True" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+<DirectedGraph DataVirtualized="True" GraphDirection="BottomToTop" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id="(@1 @5 @27 Member=(Name=ExecuteSingleAsync @3 OverloadingParameters=[(@1 Namespace=System.Data.Entity.Infrastructure Type=(Name=IDbAsyncEnumerable @3 GenericArguments=[(ParameterIdentifier=0)])),@35,(@41 Namespace=System.Threading Type=CancellationToken)]))" Category="CodeSchema_Method" Bounds="84.3716666666667,772.83415328,149.13,25.24" CodeSchemaProperty_IsInternal="True" CodeSchemaProperty_IsStatic="True" CommonLabel="ExecuteSingleAsync" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法" Label="ExecuteSingleAsync" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/ObjectQueryProvider.cs StartLineNumber=245 StartCharacterOffset=8 EndLineNumber=245 EndCharacterOffset=8)" />
-    <Node Id="(@1 @9 Type=EntitySqlParser)" Category="CodeSchema_Class" Bounds="1343.61166666667,283.4375,146.776666666667,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="EntitySqlParser" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="EntitySqlParser" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Common/EntitySql/EntitySqlParser.cs StartLineNumber=12 StartCharacterOffset=4 EndLineNumber=12 EndCharacterOffset=4)" />
-    <Node Id="@10" Category="CodeSchema_Class" Bounds="1255.83,113.375,110.34,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsInternal="True" CommonLabel="CqlLexer" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="CqlLexer" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Common/EntitySql/CqlLexer.cs StartLineNumber=18 StartCharacterOffset=4 EndLineNumber=18 EndCharacterOffset=4)" />
-    <Node Id="@11" Category="CodeSchema_Class" Bounds="1224.29833333333,170.0625,115.403333333333,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsInternal="True" CommonLabel="CqlParser" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="CqlParser" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Common/EntitySql/CqlParser.cs StartLineNumber=19 StartCharacterOffset=4 EndLineNumber=19 EndCharacterOffset=4)" />
-    <Node Id="@12" Category="CodeSchema_Class" Bounds="1167.59333333333,226.75,114.813333333334,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsInternal="True" CommonLabel="CqlQuery" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="CqlQuery" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Common/EntitySql/CqlQuery.cs StartLineNumber=53 StartCharacterOffset=4 EndLineNumber=53 EndCharacterOffset=4)">
+    <Node Id="(@1 @5 @31 Member=(Name=ExecuteSingleAsync @3 OverloadingParameters=[(@1 Namespace=System.Data.Entity.Infrastructure Type=(Name=IDbAsyncEnumerable @3 GenericArguments=[(ParameterIdentifier=0)])),@39,(@45 Namespace=System.Threading Type=CancellationToken)]))" Category="CodeSchema_Method" Bounds="1259.37166666667,504.63665328,149.13,25.24" CodeSchemaProperty_IsInternal="True" CodeSchemaProperty_IsStatic="True" CommonLabel="ExecuteSingleAsync" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法" Label="ExecuteSingleAsync" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/ObjectQueryProvider.cs StartLineNumber=245 StartCharacterOffset=8 EndLineNumber=245 EndCharacterOffset=8)" />
+    <Node Id="(@1 @9 Type=EntitySqlParser)" Category="CodeSchema_Class" Bounds="2646.61166666667,411.89707664,146.776666666667,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="EntitySqlParser" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="EntitySqlParser" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Common/EntitySql/EntitySqlParser.cs StartLineNumber=12 StartCharacterOffset=4 EndLineNumber=12 EndCharacterOffset=4)" />
+    <Node Id="(@1 Namespace=System.Data.Entity.Infrastructure Type=DbQuery)" Category="CodeSchema_Class" Bounds="433.64,170.0625,112.72,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="DbQuery" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="DbQuery" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Infrastructure/DbQuery.cs StartLineNumber=15 StartCharacterOffset=4 EndLineNumber=15 EndCharacterOffset=4)" />
+    <Node Id="@10" Category="CodeSchema_Class" Bounds="2686.83,113.375,110.34,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsInternal="True" CommonLabel="CqlLexer" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="CqlLexer" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Common/EntitySql/CqlLexer.cs StartLineNumber=18 StartCharacterOffset=4 EndLineNumber=18 EndCharacterOffset=4)" />
+    <Node Id="@11" Category="CodeSchema_Class" Bounds="2696.29833333333,170.0625,115.403333333333,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsInternal="True" CommonLabel="CqlParser" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="CqlParser" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Common/EntitySql/CqlParser.cs StartLineNumber=19 StartCharacterOffset=4 EndLineNumber=19 EndCharacterOffset=4)" />
+    <Node Id="@12" Category="CodeSchema_Class" Bounds="2662.59333333333,234.49,114.813333333334,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsInternal="True" CommonLabel="CqlQuery" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="CqlQuery" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Common/EntitySql/CqlQuery.cs StartLineNumber=53 StartCharacterOffset=4 EndLineNumber=53 EndCharacterOffset=4)">
       <Category Ref="Category1" />
     </Node>
     <Node Id="@14" Category="CodeSchema_Class" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="DbCommand" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="DbCommand" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
-    <Node Id="@15" Category="CodeSchema_Class" Bounds="704.633333333333,226.75,162.733333333334,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="DbCommandTree" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="DbCommandTree" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Common/CommandTrees/DbCommandTree.cs StartLineNumber=0 StartCharacterOffset=0 EndLineNumber=0 EndCharacterOffset=0)" />
-    <Node Id="@16" Category="CodeSchema_Class" Bounds="1343.87833333333,510.4275,156.243333333333,25" CodeSchemaProperty_IsInternal="True" CommonLabel="ELinqQueryState" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="ELinqQueryState" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/ELinqQueryState.cs StartLineNumber=19 StartCharacterOffset=4 EndLineNumber=19 EndCharacterOffset=4)" />
-    <Node Id="@17" Category="CodeSchema_Class" Bounds="884.34,283.4375,153.32,25" CodeSchemaProperty_IsPublic="True" CommonLabel="EntityCommand" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="EntityCommand" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/EntityClient/EntityCommand.cs StartLineNumber=27 StartCharacterOffset=4 EndLineNumber=27 EndCharacterOffset=4)" />
-    <Node Id="@18" Category="CodeSchema_Class" Bounds="1576.36333333333,680.09457664,191.273333333334,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsInternal="True" CommonLabel="EntityExpressionVisitor" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="EntityExpressionVisitor" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/EntityExpressionVisitor.cs StartLineNumber=12 StartCharacterOffset=4 EndLineNumber=12 EndCharacterOffset=4)" />
-    <Node Id="@19" Category="CodeSchema_Class" Bounds="1131.71666666667,340.245,186.566666666667,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsInternal="True" CommonLabel="EntitySqlQueryBuilder" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="EntitySqlQueryBuilder" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/Internal/EntitySqlQueryBuilder.cs StartLineNumber=17 StartCharacterOffset=4 EndLineNumber=17 EndCharacterOffset=4)">
+    <Node Id="@15" Category="CodeSchema_Class" Bounds="686.633333333333,234.49,162.733333333334,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="DbCommandTree" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="DbCommandTree" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Common/CommandTrees/DbCommandTree.cs StartLineNumber=0 StartCharacterOffset=0 EndLineNumber=0 EndCharacterOffset=0)" />
+    <Node Id="@16" Category="CodeSchema_Class" Bounds="447.656666666667,411.89707664,122.686666666666,25" CodeSchemaProperty_IsPublic="True" CommonLabel="DbContext" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="DbContext" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/DbContext.cs StartLineNumber=56 StartCharacterOffset=4 EndLineNumber=56 EndCharacterOffset=4)">
       <Category Ref="Category1" />
     </Node>
-    <Node Id="@20" Category="CodeSchema_Class" Bounds="1137.25166666667,283.4375,175.496666666667,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsInternal="True" CommonLabel="EntitySqlQueryState" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="EntitySqlQueryState" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/Internal/EntitySqlQueryState.cs StartLineNumber=19 StartCharacterOffset=4 EndLineNumber=19 EndCharacterOffset=4)" />
-    <Node Id="@21" Category="CodeSchema_Class" Bounds="1709.66666666667,966.44915328,178.666666666667,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsInternal="True" CommonLabel="ExpressionConverter" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="ExpressionConverter" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/ExpressionConverter.cs StartLineNumber=25 StartCharacterOffset=4 EndLineNumber=25 EndCharacterOffset=4)">
+    <Node Id="@17" Category="CodeSchema_Class" Bounds="478.995,234.49,96.0100000000002,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="DbSet" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="DbSet" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/DbSet.cs StartLineNumber=20 StartCharacterOffset=4 EndLineNumber=20 EndCharacterOffset=4)">
       <Category Ref="Category1" />
     </Node>
-    <Node Id="@22" Category="CodeSchema_Class" Bounds="1862.43166666667,879.76165328,123.136666666667,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsInternal="True" CommonLabel="Funcletizer" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Funcletizer" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/Funcletizer.cs StartLineNumber=26 StartCharacterOffset=4 EndLineNumber=26 EndCharacterOffset=4)">
+    <Node Id="@18" Category="CodeSchema_Class" Bounds="1110.87833333333,234.49,156.243333333333,25" CodeSchemaProperty_IsInternal="True" CommonLabel="ELinqQueryState" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="ELinqQueryState" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/ELinqQueryState.cs StartLineNumber=19 StartCharacterOffset=4 EndLineNumber=19 EndCharacterOffset=4)" />
+    <Node Id="@19" Category="CodeSchema_Class" Bounds="799.34,411.89707664,153.32,25" CodeSchemaProperty_IsPublic="True" CommonLabel="EntityCommand" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="EntityCommand" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/EntityClient/EntityCommand.cs StartLineNumber=27 StartCharacterOffset=4 EndLineNumber=27 EndCharacterOffset=4)" />
+    <Node Id="@20" Category="CodeSchema_Class" Bounds="63.363333333333,56.6875,191.273333333334,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsInternal="True" CommonLabel="EntityExpressionVisitor" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="EntityExpressionVisitor" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/EntityExpressionVisitor.cs StartLineNumber=12 StartCharacterOffset=4 EndLineNumber=12 EndCharacterOffset=4)" />
+    <Node Id="@21" Category="CodeSchema_Class" Bounds="2430.71666666667,113.375,186.566666666668,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsInternal="True" CommonLabel="EntitySqlQueryBuilder" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="EntitySqlQueryBuilder" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/Internal/EntitySqlQueryBuilder.cs StartLineNumber=17 StartCharacterOffset=4 EndLineNumber=17 EndCharacterOffset=4)">
       <Category Ref="Category1" />
     </Node>
-    <Node Id="@23" Category="CodeSchema_Class" Bounds="1229.59166666667,56.6874999999999,112.816666666667,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsInternal="True" CommonLabel="Identifier" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Identifier" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Common/EntitySql/AST/Identifier.cs StartLineNumber=10 StartCharacterOffset=4 EndLineNumber=10 EndCharacterOffset=4)" />
-    <Node Id="@24" Category="CodeSchema_Class" Bounds="1192.99666666667,879.76165328,210.006666666667,25" CodeSchemaProperty_IsInternal="True" CommonLabel="LinqExpressionNormalizer" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="LinqExpressionNormalizer" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/LinqExpressionNormalizer.cs StartLineNumber=25 StartCharacterOffset=4 EndLineNumber=25 EndCharacterOffset=4)" />
-    <Node Id="@25" Category="CodeSchema_Class" Bounds="1239.56333333333,-1.13686837721616E-13,92.8733333333334,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsInternal="True" CommonLabel="Node" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Node" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Common/EntitySql/AST/AstNode.cs StartLineNumber=10 StartCharacterOffset=4 EndLineNumber=10 EndCharacterOffset=4)" />
-    <Node Id="@26" Category="CodeSchema_Class" Bounds="997.068333333333,879.76165328,133.863333333333,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="ObjectQuery" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="ObjectQuery" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ObjectQuery.cs StartLineNumber=23 StartCharacterOffset=4 EndLineNumber=23 EndCharacterOffset=4)" />
-    <Node Id="@28" Category="CodeSchema_Class" Bounds="64.3716666666667,567.115,1153.25666666667,250.95915328" CodeSchemaProperty_IsInternal="True" CommonLabel="ObjectQueryProvider" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Class" Label="ObjectQueryProvider" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/ObjectQueryProvider.cs StartLineNumber=18 StartCharacterOffset=4 EndLineNumber=18 EndCharacterOffset=4)">
+    <Node Id="@22" Category="CodeSchema_Class" Bounds="2422.25166666667,811.86665328,175.496666666667,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsInternal="True" CommonLabel="EntitySqlQueryState" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="EntitySqlQueryState" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/Internal/EntitySqlQueryState.cs StartLineNumber=19 StartCharacterOffset=4 EndLineNumber=19 EndCharacterOffset=4)" />
+    <Node Id="@23" Category="CodeSchema_Class" Bounds="199.666666666667,170.0625,178.666666666667,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsInternal="True" CommonLabel="ExpressionConverter" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="ExpressionConverter" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/ExpressionConverter.cs StartLineNumber=25 StartCharacterOffset=4 EndLineNumber=25 EndCharacterOffset=4)">
       <Category Ref="Category1" />
     </Node>
-    <Node Id="@29" Category="CodeSchema_Class" Bounds="1086.41333333333,453.74,163.173333333333,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsInternal="True" CommonLabel="ObjectQueryState" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="ObjectQueryState" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/Internal/ObjectQueryState.cs StartLineNumber=21 StartCharacterOffset=4 EndLineNumber=21 EndCharacterOffset=4)" />
-    <Node Id="@30" Category="CodeSchema_Class" Bounds="1375.83666666667,680.09457664,138.326666666667,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsInternal="True" CommonLabel="ReflectionUtil" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="ReflectionUtil" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/ReflectionUtil.cs StartLineNumber=17 StartCharacterOffset=4 EndLineNumber=17 EndCharacterOffset=4)" />
-    <Node Id="@31" Category="CodeSchema_Enum" Bounds="1530.73166666667,510.4275,158.536666666667,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsInternal="True" CommonLabel="SequenceMethod" DelayedChildNodesState="NotFetched" Group="Collapsed" Icon="CodeSchema_Enum" Label="SequenceMethod" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/SequenceMethod.cs StartLineNumber=7 StartCharacterOffset=4 EndLineNumber=7 EndCharacterOffset=4)" />
-    <Node Id="@33" Category="CodeSchema_Class" Bounds="717.683333333333,283.4375,136.633333333333,25" CodeSchemaProperty_IsInternal="True" CommonLabel="SqlGenerator" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="SqlGenerator" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework.SqlServer/SqlGen/SqlGenerator.cs StartLineNumber=180 StartCharacterOffset=4 EndLineNumber=180 EndCharacterOffset=4)" />
-    <Node Id="@37" Category="CodeSchema_Method" Bounds="1881.74166666667,889.76165328,212.516666666666,25.24" CodeSchemaProperty_IsPrivate="True" CommonLabel="ReplaceRootContextParameter" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法" Label="ReplaceRootContextParameter" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/Funcletizer.cs StartLineNumber=152 StartCharacterOffset=8 EndLineNumber=152 EndCharacterOffset=8)" UseManualLocation="True" />
-    <Node Id="@38" Category="CodeSchema_Method" Bounds="928.371666666667,717.59415328,269.256666666667,25.24" CodeSchemaProperty_IsPrivate="True" CommonLabel="System‎.Linq‎.IQueryProvider‎.CreateQuery" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法" Label="System‎.Linq‎.IQueryProvider‎.CreateQuery" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/ObjectQueryProvider.cs StartLineNumber=135 StartCharacterOffset=8 EndLineNumber=135 EndCharacterOffset=8)" />
-    <Node Id="@39" Category="CodeSchema_Method" Bounds="656.406666666667,717.59415328,241.186666666667,25.24" CodeSchemaProperty_IsPrivate="True" CommonLabel="System‎.Linq‎.IQueryProvider‎.Execute" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法" Label="System‎.Linq‎.IQueryProvider‎.Execute" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/ObjectQueryProvider.cs StartLineNumber=159 StartCharacterOffset=8 EndLineNumber=159 EndCharacterOffset=8)" />
-    <Node Id="@4" Category="CodeSchema_Class" Bounds="1201.72833333333,397.0525,158.543333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="ObjectQuery‎&lt;T‎&gt;" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="ObjectQuery‎&lt;T‎&gt;" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ObjectQuery`.cs StartLineNumber=33 StartCharacterOffset=4 EndLineNumber=33 EndCharacterOffset=4)" />
-    <Node Id="@40" Category="CodeSchema_Method" Bounds="719.41,340.125,133.18,25.24" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsStatic="True" CommonLabel="CreateCommand" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法" Label="CreateCommand" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework.SqlServer/SqlProviderServices.cs StartLineNumber=224 StartCharacterOffset=8 EndLineNumber=224 EndCharacterOffset=8)" />
-    <Node Id="@42" Category="CodeSchema_Method" Bounds="722.875,662.35415328,108.25,25.24" CodeSchemaProperty_IsInternal="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="CreateQuery" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法 虚拟" Label="CreateQuery" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/ObjectQueryProvider.cs StartLineNumber=76 StartCharacterOffset=8 EndLineNumber=76 EndCharacterOffset=8)" />
-    <Node Id="@43" Category="CodeSchema_Method" Bounds="413.770024506667,607.115,158.459950986667,25.23915328" CodeSchemaProperty_IsPrivate="True" CommonLabel="GetObjectQueryState" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法" Label="GetObjectQueryState" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/ObjectQueryProvider.cs StartLineNumber=81 StartCharacterOffset=8 EndLineNumber=81 EndCharacterOffset=8)" />
-    <Node Id="@44" Category="CodeSchema_Method" Bounds="438.875,662.35415328,108.25,25.24" CodeSchemaProperty_IsInternal="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="CreateQuery" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法 虚拟" Label="CreateQuery" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/ObjectQueryProvider.cs StartLineNumber=61 StartCharacterOffset=8 EndLineNumber=61 EndCharacterOffset=8)" />
-    <Node Id="@45" Category="CodeSchema_Method" Bounds="84.3716666666667,717.59415328,269.256666666667,25.24" CodeSchemaProperty_IsPrivate="True" CommonLabel="System‎.Linq‎.IQueryProvider‎.CreateQuery" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法" Label="System‎.Linq‎.IQueryProvider‎.CreateQuery" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/ObjectQueryProvider.cs StartLineNumber=98 StartCharacterOffset=8 EndLineNumber=98 EndCharacterOffset=8)" />
-    <Node Id="@46" Category="CodeSchema_Method" Bounds="384.406666666667,717.59415328,241.186666666667,25.24" CodeSchemaProperty_IsPrivate="True" CommonLabel="System‎.Linq‎.IQueryProvider‎.Execute" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法" Label="System‎.Linq‎.IQueryProvider‎.Execute" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/ObjectQueryProvider.cs StartLineNumber=119 StartCharacterOffset=8 EndLineNumber=119 EndCharacterOffset=8)" />
-    <Node Id="@47" Category="CodeSchema_Method" Bounds="577.313333333333,662.35415328,115.373333333333,25.24" CodeSchemaProperty_IsInternal="True" CodeSchemaProperty_IsStatic="True" CommonLabel="ExecuteSingle" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法" Label="ExecuteSingle" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/ObjectQueryProvider.cs StartLineNumber=214 StartCharacterOffset=8 EndLineNumber=214 EndCharacterOffset=8)" />
-    <Node Id="@6" Category="CodeSchema_Class" Bounds="1453.745,889.76165328,262.51,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPrivate="True" CommonLabel="CreateDonateableExpressionVisitor" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="CreateDonateableExpressionVisitor" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/CompiledELinqQueryState.cs StartLineNumber=231 StartCharacterOffset=8 EndLineNumber=231 EndCharacterOffset=8)" />
-    <Node Id="@7" Category="CodeSchema_Class" Bounds="1433.745,849.76165328,302.51,85" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsInternal="True" CommonLabel="CompiledELinqQueryState" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Class" Label="CompiledELinqQueryState" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/CompiledELinqQueryState.cs StartLineNumber=18 StartCharacterOffset=4 EndLineNumber=18 EndCharacterOffset=4)" />
-    <Node Id="@8" Category="CodeSchema_Class" Bounds="32.3233333333333,879.76165328,151.353333333333,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="CompiledQuery" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="CompiledQuery" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/CompiledQuery.cs StartLineNumber=17 StartCharacterOffset=4 EndLineNumber=17 EndCharacterOffset=4)" />
-    <Node Id="LINQExpressionsToEDMCQTExpressions" Category="Comment" Bounds="1797.75333333333,1023.13665328,194.493333333333,40.48" Label="LINQ expressions to EDM CQT expressions" />
-    <Node Id="_standardGraphExternalsGroup" Category="Externals" Bounds="1037,226.75,64,25" Group="Collapsed" Label="外部" />
+    <Node Id="@24" Category="CodeSchema_Class" Bounds="67.4316666666664,113.375,123.136666666667,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsInternal="True" CommonLabel="Funcletizer" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Funcletizer" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/Funcletizer.cs StartLineNumber=26 StartCharacterOffset=4 EndLineNumber=26 EndCharacterOffset=4)">
+      <Category Ref="Category1" />
+    </Node>
+    <Node Id="@25" Category="CodeSchema_Class" Bounds="2710.59166666667,56.6875,112.816666666668,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsInternal="True" CommonLabel="Identifier" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Identifier" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Common/EntitySql/AST/Identifier.cs StartLineNumber=10 StartCharacterOffset=4 EndLineNumber=10 EndCharacterOffset=4)" />
+    <Node Id="@26" Category="CodeSchema_Class" Bounds="577.056666666667,170.0625,149.886666666667,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsInternal="True" CommonLabel="InternalContext" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="InternalContext" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Internal/InternalContext.cs StartLineNumber=49 StartCharacterOffset=4 EndLineNumber=49 EndCharacterOffset=4)">
+      <Category Ref="Category10" />
+    </Node>
+    <Node Id="@27" Category="CodeSchema_Class" Bounds="284.996666666666,113.375,210.006666666667,25" CodeSchemaProperty_IsInternal="True" CommonLabel="LinqExpressionNormalizer" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="LinqExpressionNormalizer" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/LinqExpressionNormalizer.cs StartLineNumber=25 StartCharacterOffset=4 EndLineNumber=25 EndCharacterOffset=4)" />
+    <Node Id="@28" Category="CodeSchema_Class" Bounds="2633.56333333333,0,92.873333333333,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsInternal="True" CommonLabel="Node" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Node" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Common/EntitySql/AST/AstNode.cs StartLineNumber=10 StartCharacterOffset=4 EndLineNumber=10 EndCharacterOffset=4)" />
+    <Node Id="@29" Category="CodeSchema_Class" Bounds="912.085,581.68415328,143.83,25" CodeSchemaProperty_IsPublic="True" CommonLabel="ObjectContext" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="ObjectContext" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ObjectContext.cs StartLineNumber=49 StartCharacterOffset=4 EndLineNumber=49 EndCharacterOffset=4)">
+      <Category Ref="Category1" />
+    </Node>
+    <Node Id="@30" Category="CodeSchema_Class" Bounds="1272.06833333333,668.49165328,133.863333333333,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="ObjectQuery" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="ObjectQuery" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ObjectQuery.cs StartLineNumber=23 StartCharacterOffset=4 EndLineNumber=23 EndCharacterOffset=4)" />
+    <Node Id="@32" Category="CodeSchema_Class" Bounds="1239.37166666667,298.9175,1153.25666666667,250.95915328" CodeSchemaProperty_IsInternal="True" CommonLabel="ObjectQueryProvider" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Class" Label="ObjectQueryProvider" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/ObjectQueryProvider.cs StartLineNumber=18 StartCharacterOffset=4 EndLineNumber=18 EndCharacterOffset=4)">
+      <Category Ref="Category1" />
+    </Node>
+    <Node Id="@33" Category="CodeSchema_Class" Bounds="1370.41333333333,755.17915328,163.173333333333,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsInternal="True" CommonLabel="ObjectQueryState" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="ObjectQueryState" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/Internal/ObjectQueryState.cs StartLineNumber=21 StartCharacterOffset=4 EndLineNumber=21 EndCharacterOffset=4)" />
+    <Node Id="@34" Category="CodeSchema_Class" Bounds="320.836666666667,56.6875,138.326666666667,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsInternal="True" CommonLabel="ReflectionUtil" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="ReflectionUtil" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/ReflectionUtil.cs StartLineNumber=17 StartCharacterOffset=4 EndLineNumber=17 EndCharacterOffset=4)" />
+    <Node Id="@35" Category="CodeSchema_Enum" Bounds="238.731666666667,0,158.536666666667,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsInternal="True" CommonLabel="SequenceMethod" DelayedChildNodesState="NotFetched" Group="Collapsed" Icon="CodeSchema_Enum" Label="SequenceMethod" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/SequenceMethod.cs StartLineNumber=7 StartCharacterOffset=4 EndLineNumber=7 EndCharacterOffset=4)" />
+    <Node Id="@37" Category="CodeSchema_Class" Bounds="600.683333333333,411.89707664,136.633333333333,25" CodeSchemaProperty_IsInternal="True" CommonLabel="SqlGenerator" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="SqlGenerator" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework.SqlServer/SqlGen/SqlGenerator.cs StartLineNumber=180 StartCharacterOffset=4 EndLineNumber=180 EndCharacterOffset=4)" />
+    <Node Id="@4" Category="CodeSchema_Class" Bounds="2344.72833333333,170.0625,158.543333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="ObjectQuery‎&lt;T‎&gt;" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="ObjectQuery‎&lt;T‎&gt;" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ObjectQuery`.cs StartLineNumber=33 StartCharacterOffset=4 EndLineNumber=33 EndCharacterOffset=4)" />
+    <Node Id="@41" Category="CodeSchema_Method" Bounds="1881.74166666667,889.76165328,212.516666666666,25.24" CodeSchemaProperty_IsPrivate="True" CommonLabel="ReplaceRootContextParameter" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法" Label="ReplaceRootContextParameter" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/Funcletizer.cs StartLineNumber=152 StartCharacterOffset=8 EndLineNumber=152 EndCharacterOffset=8)" UseManualLocation="True" />
+    <Node Id="@42" Category="CodeSchema_Method" Bounds="2103.37166666667,449.39665328,269.256666666667,25.24" CodeSchemaProperty_IsPrivate="True" CommonLabel="System‎.Linq‎.IQueryProvider‎.CreateQuery" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法" Label="System‎.Linq‎.IQueryProvider‎.CreateQuery" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/ObjectQueryProvider.cs StartLineNumber=135 StartCharacterOffset=8 EndLineNumber=135 EndCharacterOffset=8)" />
+    <Node Id="@43" Category="CodeSchema_Method" Bounds="1831.40666666667,449.39665328,241.186666666667,25.24" CodeSchemaProperty_IsPrivate="True" CommonLabel="System‎.Linq‎.IQueryProvider‎.Execute" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法" Label="System‎.Linq‎.IQueryProvider‎.Execute" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/ObjectQueryProvider.cs StartLineNumber=159 StartCharacterOffset=8 EndLineNumber=159 EndCharacterOffset=8)" />
+    <Node Id="@44" Category="CodeSchema_Method" Bounds="553.41,581.56415328,133.179999999999,25.24" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsStatic="True" CommonLabel="CreateCommand" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法" Label="CreateCommand" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework.SqlServer/SqlProviderServices.cs StartLineNumber=224 StartCharacterOffset=8 EndLineNumber=224 EndCharacterOffset=8)" />
+    <Node Id="@46" Category="CodeSchema_Method" Bounds="1897.875,394.15665328,108.25,25.24" CodeSchemaProperty_IsInternal="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="CreateQuery" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法 虚拟" Label="CreateQuery" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/ObjectQueryProvider.cs StartLineNumber=76 StartCharacterOffset=8 EndLineNumber=76 EndCharacterOffset=8)" />
+    <Node Id="@47" Category="CodeSchema_Method" Bounds="1588.77002450667,338.9175,158.459950986667,25.23915328" CodeSchemaProperty_IsPrivate="True" CommonLabel="GetObjectQueryState" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法" Label="GetObjectQueryState" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/ObjectQueryProvider.cs StartLineNumber=81 StartCharacterOffset=8 EndLineNumber=81 EndCharacterOffset=8)" />
+    <Node Id="@48" Category="CodeSchema_Method" Bounds="1613.875,394.15665328,108.25,25.24" CodeSchemaProperty_IsInternal="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="CreateQuery" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法 虚拟" Label="CreateQuery" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/ObjectQueryProvider.cs StartLineNumber=61 StartCharacterOffset=8 EndLineNumber=61 EndCharacterOffset=8)" />
+    <Node Id="@49" Category="CodeSchema_Method" Bounds="1259.37166666667,449.39665328,269.256666666667,25.24" CodeSchemaProperty_IsPrivate="True" CommonLabel="System‎.Linq‎.IQueryProvider‎.CreateQuery" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法" Label="System‎.Linq‎.IQueryProvider‎.CreateQuery" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/ObjectQueryProvider.cs StartLineNumber=98 StartCharacterOffset=8 EndLineNumber=98 EndCharacterOffset=8)" />
+    <Node Id="@50" Category="CodeSchema_Method" Bounds="1559.40666666667,449.39665328,241.186666666667,25.24" CodeSchemaProperty_IsPrivate="True" CommonLabel="System‎.Linq‎.IQueryProvider‎.Execute" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法" Label="System‎.Linq‎.IQueryProvider‎.Execute" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/ObjectQueryProvider.cs StartLineNumber=119 StartCharacterOffset=8 EndLineNumber=119 EndCharacterOffset=8)" />
+    <Node Id="@51" Category="CodeSchema_Method" Bounds="1752.31333333333,394.15665328,115.373333333333,25.24" CodeSchemaProperty_IsInternal="True" CodeSchemaProperty_IsStatic="True" CommonLabel="ExecuteSingle" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法" Label="ExecuteSingle" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/ObjectQueryProvider.cs StartLineNumber=214 StartCharacterOffset=8 EndLineNumber=214 EndCharacterOffset=8)" />
+    <Node Id="@6" Category="CodeSchema_Class" Bounds="852.745,678.49165328,262.51,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPrivate="True" CommonLabel="CreateDonateableExpressionVisitor" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="CreateDonateableExpressionVisitor" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/CompiledELinqQueryState.cs StartLineNumber=231 StartCharacterOffset=8 EndLineNumber=231 EndCharacterOffset=8)" />
+    <Node Id="@7" Category="CodeSchema_Class" Bounds="832.745,638.49165328,302.51,85" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsInternal="True" CommonLabel="CompiledELinqQueryState" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Class" Label="CompiledELinqQueryState" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/ELinq/CompiledELinqQueryState.cs StartLineNumber=18 StartCharacterOffset=4 EndLineNumber=18 EndCharacterOffset=4)" />
+    <Node Id="@8" Category="CodeSchema_Class" Bounds="662.323333333334,811.86665328,151.353333333333,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="CompiledQuery" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="CompiledQuery" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Core/Objects/CompiledQuery.cs StartLineNumber=17 StartCharacterOffset=4 EndLineNumber=17 EndCharacterOffset=4)" />
+    <Node Id="LINQExpressionsToEDMCQTExpressions" Category="Comment" Bounds="31.7533333333336,226.75,194.493333333333,40.48" Label="LINQ expressions to EDM CQT expressions" />
+    <Node Id="_standardGraphExternalsGroup" Category="Externals" Bounds="384,234.49,64,25" Group="Collapsed" Label="外部" />
   </Nodes>
   <Links>
-    <Link Source="(@1 @9 Type=EntitySqlParser)" Target="@12" Category="CodeSchema_Calls" Bounds="1275.96899414063,254.298477172852,98.693603515625,29.1390228271484" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
-    <Link Source="@10" Target="@11" Category="CodeSchema_FieldRead" Bounds="1314.65856933594,138.375,14.2330322265625,27.4910888671875" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="102" />
-    <Link Source="@10" Target="@23" Category="CodeSchema_Calls" Bounds="1268.6103515625,89.0357437133789,19.89794921875,24.3392562866211" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
-    <Link Source="@10" Target="@25" Category="References" Bounds="1332.912109375,27.8288974761963,40.087890625,85.5461025238037" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="4">
+    <Link Source="(@1 @9 Type=EntitySqlParser)" Target="@12" Category="CodeSchema_Calls" Bounds="2720,268.489990234375,0,143.407073974609" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@10" Target="@11" Category="CodeSchema_FieldRead" Bounds="2764.49169921875,138.375,17.458251953125,25.9698486328125" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="102" />
+    <Link Source="@10" Target="@25" Category="CodeSchema_Calls" Bounds="2723.88598632813,86.1554718017578,12.36865234375,27.2195281982422" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@10" Target="@28" Category="References" Bounds="2680,34,34.6572265625,79.375" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="4">
       <Category Ref="CodeSchema_Calls" />
     </Link>
-    <Link Source="@11" Target="@10" Category="References" Bounds="1267.68493652344,142.903579711914,13.045654296875,27.1589202880859" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="53">
-      <Category Ref="CodeSchema_Calls" />
-      <Category Ref="CodeSchema_ReturnTypeLink" />
-    </Link>
-    <Link Source="@11" Target="@23" Category="CodeSchema_Calls" Bounds="1225,85.6165390014648,31.8621826171875,84.4459609985352" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="8" />
-    <Link Source="@11" Target="@25" Category="References" Bounds="1335.75646972656,25.3556575775146,69.2435302734375,144.819360733032" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="30">
+    <Link Source="@11" Target="@10" Category="References" Bounds="2722.97729492188,145.462554931641,13.8232421875,24.5999450683594" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="53">
       <Category Ref="CodeSchema_Calls" />
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
-    <Link Source="@12" Target="@11" Category="CodeSchema_Calls" Bounds="1237.56884765625,201.408950805664,25.4808349609375,25.3410491943359" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
-    <Link Source="@12" Target="@25" Category="References" Bounds="1193,27.7128582000732,43.404296875,199.037141799927" IsSourceVirtualized="True" Weight="19">
+    <Link Source="@11" Target="@25" Category="CodeSchema_Calls" Bounds="2786.63500976563,85.6165390014648,41.364990234375,84.4459609985352" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="8" />
+    <Link Source="@11" Target="@28" Category="References" Bounds="2735.3271484375,21.212100982666,124.6728515625,148.850399017334" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="30">
+      <Category Ref="CodeSchema_Calls" />
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
-    <Link Source="@16" Target="@21" Category="CodeSchema_Calls" Bounds="1449.77502441406,535.427490234375,349.224975585938,422.021667480469" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="11">
+    <Link Source="@12" Target="@11" Category="CodeSchema_Calls" Bounds="2726.5966796875,203.02214050293,16.606201171875,31.4678649902344" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@12" Target="@28" Category="References" Bounds="2648,31.78489112854,47.05810546875,202.705114364624" IsSourceVirtualized="True" Weight="19">
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
-    <Link Source="@16" Target="@26" Category="References" Bounds="1095.96691894531,535.427490234375,292.074951171875,340.1748046875" IsSourceVirtualized="True" Weight="1" />
-    <Link Source="@16" Target="@29" Category="InheritsFrom" Bounds="1227.04956054688,481.049621582031,132.767456054688,29.3778686523438" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="35">
+    <Link Source="@16" Target="@17" Category="CodeSchema_ReturnTypeLink" Bounds="510.268280029297,268.444030761719,14.5549621582031,143.453033447266" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@16" Target="@26" Category="References" Bounds="515.987548828125,202.654144287109,123.219177246094,209.242919921875" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="9">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@16" Target="@29" Category="References" Bounds="528.812744140625,436.897064208984,374.3720703125,148.122528076172" IsSourceVirtualized="True" Weight="3">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@17" Target="(@1 Namespace=System.Data.Entity.Infrastructure Type=DbQuery)" Category="InheritsFrom" Bounds="501.909698486328,203.300643920898,17.9117126464844,31.1893615722656" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="5">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@17" Target="@26" Category="CodeSchema_Calls" Bounds="545.013671875,198.341873168945,66.4110107421875,36.1481323242188" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@18" Target="@23" Category="CodeSchema_Calls" Bounds="383.765686035156,195.790161132813,744.368835449219,38.6998443603516" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="11">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@18" Target="@29" Category="References" Bounds="1048.99536132813,259.489990234375,136.98486328125,320.231811523438" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="6">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@18" Target="@30" Category="References" Bounds="1189.34228515625,259.489990234375,128.571411132813,403.080444335938" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@18" Target="@33" Category="InheritsFrom" Bounds="1190.78173828125,259.489990234375,261.21826171875,486.189147949219" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="35">
       <Category Ref="CodeSchema_Calls" />
       <Category Ref="CodeSchema_FieldRead" />
       <Category Ref="CodeSchema_FieldWrite" />
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
-    <Link Source="@16" Target="@4" Category="References" Bounds="1295.82055664063,429.243286132813,92.2213134765625,81.1842041015625" IsSourceVirtualized="True" Weight="2" />
-    <Link Source="@17" Target="@12" Category="CodeSchema_Calls" Bounds="994.51708984375,249.226928710938,164.307373046875,34.2105712890625" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
-    <Link Source="@17" Target="@14" Category="References" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="15">
+    <Link Source="@18" Target="@4" Category="References" Bounds="1267.12170410156,187.16682434082,1068.61877441406,55.7477264404297" IsSourceVirtualized="True" Weight="2" />
+    <Link Source="@19" Target="@12" Category="CodeSchema_Calls" Bounds="885.861633300781,261.823913574219,1778.89276123047,150.073150634766" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@19" Target="@14" Category="References" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="15">
       <Category Ref="CodeSchema_Calls" />
       <Category Ref="InheritsFrom" />
     </Link>
-    <Link Source="@17" Target="@15" Category="References" Bounds="833.150756835938,254.523483276367,89.260498046875,28.9140167236328" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="6">
+    <Link Source="@19" Target="@15" Category="References" Bounds="785.042785644531,266.236022949219,84.2350463867188,145.661041259766" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="6">
       <Category Ref="CodeSchema_Calls" />
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
-    <Link Source="@19" Target="@20" Category="CodeSchema_Calls" Bounds="1225,317.4375,0,22.8074951171875" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
-    <Link Source="@19" Target="@29" Category="References" Bounds="1133,365.244995117188,51.5977783203125,82.4893493652344" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="78">
+    <Link Source="@21" Target="@22" Category="CodeSchema_Calls" Bounds="2564.5732421875,138.375,51.4267578125,671.01025390625" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@21" Target="@29" Category="References" Bounds="985.1484375,129.358535766602,1445.56811523438,443.338424682617" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="3">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@21" Target="@33" Category="References" Bounds="1542.5830078125,138.375,979.82763671875,626.72119140625" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="78">
       <Category Ref="CodeSchema_Calls" />
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
-    <Link Source="@20" Target="@12" Category="CodeSchema_Calls" Bounds="1225,260.75,0,22.6875" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
-    <Link Source="@20" Target="@29" Category="InheritsFrom" Bounds="1101,308.4375,69.314208984375,141.348937988281" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="36">
+    <Link Source="@22" Target="@12" Category="CodeSchema_Calls" Bounds="2597.73071289063,262.440093994141,226.269287109375,554.007415771484" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@22" Target="@29" Category="References" Bounds="770,604.880004882813,1652.25170898438,218.057250976563" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="7">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@22" Target="@33" Category="InheritsFrom" Bounds="1543.07312011719,772.558837890625,879.178588867188,47.1062622070313" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="36">
       <Category Ref="CodeSchema_Calls" />
       <Category Ref="CodeSchema_FieldRead" />
       <Category Ref="CodeSchema_FieldWrite" />
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
-    <Link Source="@20" Target="@4" Category="References" Bounds="1298.6494140625,308.4375,93.3505859375,86.3778991699219" IsSourceVirtualized="True" Weight="1" />
-    <Link Source="@21" Target="@18" Category="CodeSchema_Calls" Bounds="1685.42370605469,712.563842773438,99.4638671875,253.885314941406" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
-    <Link Source="@21" Target="@20" Category="CodeSchema_Calls" Bounds="1318.52416992188,309.353851318359,698.475830078125,657.095306396484" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
-    <Link Source="@21" Target="@22" Category="References" Bounds="1827.22497558594,910.982421875,77.201904296875,55.4667358398438" IsSourceVirtualized="True" Weight="3" />
-    <Link Source="@21" Target="@24" Category="CodeSchema_Calls" Bounds="1339.26293945313,907.962341308594,370.543579101563,62.312744140625" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
-    <Link Source="@21" Target="@26" Category="References" Bounds="1085.14184570313,910.672058105469,624.524780273438,64.4866333007813" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="8">
+    <Link Source="@22" Target="@4" Category="References" Bounds="2427.001953125,203.975341796875,82.998046875,607.891296386719" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@23" Target="@20" Category="CodeSchema_Calls" Bounds="194.933944702148,85.5054550170898,64.5180816650391,84.5570449829102" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@23" Target="@22" Category="CodeSchema_Calls" Bounds="253.242202758789,195.0625,2160.01048278809,627.784118652344" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@23" Target="@24" Category="References" Bounds="164.081909179688,142.128265380859,81.2576751708984,27.9342346191406" IsSourceVirtualized="True" Weight="3" />
+    <Link Source="@23" Target="@27" Category="CodeSchema_Calls" Bounds="311.271209716797,142.779968261719,48.6092529296875,27.2825317382813" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@23" Target="@29" Category="CodeSchema_Calls" Bounds="292.131866455078,195.0625,610.963287353516,395.277160644531" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="11" />
+    <Link Source="@23" Target="@30" Category="References" Bounds="290.943542480469,195.0625,996.494201660156,470.91259765625" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="8">
       <Category Ref="CodeSchema_Calls" />
     </Link>
-    <Link Source="@21" Target="@29" Category="CodeSchema_Calls" Bounds="1,468.427520751953,1708.66662597656,509.113372802734" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="3" />
-    <Link Source="@21" Target="@30" Category="CodeSchema_Calls" Bounds="1175.99108886719,713.20458984375,533.675537109375,261.769592285156" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
-    <Link Source="@21" Target="@31" Category="References" Bounds="1636.1142578125,540.440246582031,201.346313476563,426.008911132813" IsSourceVirtualized="True" Weight="27" />
-    <Link Source="@22" Target="@37" Category="Contains" FetchingParent="@22" />
-    <Link Source="@23" Target="@10" Category="CodeSchema_Calls" Bounds="1308.93273925781,81.6875,20.18115234375,24.4623641967773" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
-    <Link Source="@23" Target="@25" Category="InheritsFrom" Bounds="1286,34.5,0,22.1875" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="4">
+    <Link Source="@23" Target="@33" Category="CodeSchema_Calls" Bounds="289,195.0625,1072.421875,568.666931152344" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="3" />
+    <Link Source="@23" Target="@34" Category="CodeSchema_Calls" Bounds="377.28857421875,83.5246505737305,148.71142578125,88.4790725708008" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@23" Target="@35" Category="References" Bounds="265.313140869141,33.2023773193359,43.3376770019531,136.860122680664" IsSourceVirtualized="True" Weight="27" />
+    <Link Source="@24" Target="@41" Category="Contains" FetchingParent="@24" />
+    <Link Source="@25" Target="@10" Category="CodeSchema_Calls" Bounds="2772.263671875,81.6875,12.1259765625,27.1492919921875" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@25" Target="@28" Category="InheritsFrom" Bounds="2707.1435546875,30.1862297058105,40.67236328125,26.5012702941895" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="4">
       <Category Ref="CodeSchema_Calls" />
     </Link>
-    <Link Source="@24" Target="@18" Category="InheritsFrom" Bounds="1328.63732910156,712.09716796875,325.483276367188,167.664489746094" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="4">
-      <Category Ref="CodeSchema_Calls" />
-    </Link>
-    <Link Source="@24" Target="@30" Category="CodeSchema_Calls" Bounds="1321.78149414063,713.816040039063,117.812622070313,165.945617675781" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
-    <Link Source="@26" Target="@28" Category="References" Bounds="858.152221679688,821.993041992188,163.083374023438,57.7686157226563" IsSourceVirtualized="True" Weight="2">
-      <Category Ref="CodeSchema_ReturnTypeLink" />
-    </Link>
-    <Link Source="@26" Target="@29" Category="References" Bounds="1086.12170410156,486.559722900391,153.168579101563,393.201934814453" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="19">
+    <Link Source="@26" Target="@16" Category="References" Bounds="528.049682617188,195.0625,123.950317382813,210.508239746094" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="17">
       <Category Ref="CodeSchema_Calls" />
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
-    <Link Source="@28" Target="(@1 @5 @27 Member=(Name=ExecuteSingleAsync @3 OverloadingParameters=[(@1 Namespace=System.Data.Entity.Infrastructure Type=(Name=IDbAsyncEnumerable @3 GenericArguments=[(ParameterIdentifier=0)])),@35,(@41 Namespace=System.Threading Type=CancellationToken)]))" Category="Contains" FetchingParent="@28" />
-    <Link Source="@28" Target="@38" Category="Contains" FetchingParent="@28" />
-    <Link Source="@28" Target="@39" Category="Contains" FetchingParent="@28" />
-    <Link Source="@28" Target="@42" Category="Contains" FetchingParent="@28" />
-    <Link Source="@28" Target="@43" Category="Contains" FetchingParent="@28" />
-    <Link Source="@28" Target="@44" Category="Contains" FetchingParent="@28" />
-    <Link Source="@28" Target="@45" Category="Contains" FetchingParent="@28" />
-    <Link Source="@28" Target="@46" Category="Contains" FetchingParent="@28" />
-    <Link Source="@28" Target="@47" Category="Contains" FetchingParent="@28" />
-    <Link Source="@29" Target="@26" Category="References" Bounds="1095.84387207031,478.739990234375,172.4912109375,396.846618652344" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="6">
+    <Link Source="@26" Target="@29" Category="References" Bounds="708.264770507813,195.0625,273.142272949219,377.686767578125" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="23">
       <Category Ref="CodeSchema_Calls" />
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
-    <Link Source="@29" Target="@4" Category="References" Bounds="1168,424.246673583984,54.4368896484375,29.4933166503906" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="3">
+    <Link Source="@27" Target="@20" Category="InheritsFrom" Bounds="210.002059936523,84.3960494995117,120.020004272461,28.9789505004883" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="4">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@27" Target="@34" Category="CodeSchema_Calls" Bounds="390,90.6875,0,22.6875" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@29" Target="@14" Category="References" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="20">
       <Category Ref="CodeSchema_Calls" />
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
-    <Link Source="@30" Target="@31" Category="References" Bounds="1451.01452636719,538.002258300781,107.583251953125,142.092346191406" IsSourceVirtualized="True" Weight="16" />
-    <Link Source="@33" Target="@15" Category="References" Bounds="786,260.75,0,22.6875" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="3">
+    <Link Source="@29" Target="@16" Category="References" Bounds="528.380310058594,443.156616210938,383.704711914063,144.805725097656" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="6">
       <Category Ref="CodeSchema_Calls" />
     </Link>
-    <Link Source="@37" Target="@18" Category="CodeSchema_Calls" Bounds="1698.3266799004,710.072420972285,270.663956357333,179.689292894902" IsTargetVirtualized="True" Weight="1" />
-    <Link Source="@38" Target="@42" Category="CodeSchema_Calls" Bounds="839.849609375,687.113342285156,157.8115234375,30.4808349609375" Weight="1" />
-    <Link Source="@39" Target="@42" Category="CodeSchema_Calls" Bounds="777,696.594177246094,0,21" Weight="1" />
-    <Link Source="@39" Target="@47" Category="CodeSchema_Calls" Bounds="675.828674316406,690.857055664063,68.7303466796875,26.7371215820313" Weight="1" />
-    <Link Source="@4" Target="@19" Category="CodeSchema_Calls" Bounds="1243.64050292969,371.654357910156,25.0372314453125,25.3981323242188" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="13" />
-    <Link Source="@4" Target="@20" Category="CodeSchema_Calls" Bounds="1290.23645019531,310.385833740234,62.7635498046875,86.6666564941406" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="3" />
-    <Link Source="@4" Target="@26" Category="References" Bounds="1096.35656738281,422.052490234375,203.407104492188,453.3115234375" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="58">
+    <Link Source="@29" Target="@19" Category="References" Bounds="886.98486328125,444.823577880859,82.962158203125,136.860565185547" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="16">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@29" Target="@30" Category="CodeSchema_Calls" Bounds="1055.9150390625,601.123046875,263.777709960938,61.0942993164063" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@29" Target="@32" Category="References" Bounds="1055.9150390625,551.691345214844,279.200561523438,36.2898559570313" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@29" Target="@4" Category="CodeSchema_Calls" Bounds="987.107238769531,184.364349365234,1348.62298583984,397.319793701172" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="3">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@30" Target="@29" Category="CodeSchema_Calls" Bounds="1064.4697265625,604.739318847656,244.964111328125,63.7523193359375" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@30" Target="@32" Category="References" Bounds="1339.75903320313,553.714782714844,81.3310546875,114.77685546875" IsSourceVirtualized="True" Weight="2">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@30" Target="@33" Category="References" Bounds="1355.71130371094,693.491638183594,73.8388671875,56.0484619140625" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="19">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@32" Target="(@1 @5 @31 Member=(Name=ExecuteSingleAsync @3 OverloadingParameters=[(@1 Namespace=System.Data.Entity.Infrastructure Type=(Name=IDbAsyncEnumerable @3 GenericArguments=[(ParameterIdentifier=0)])),@39,(@45 Namespace=System.Threading Type=CancellationToken)]))" Category="Contains" FetchingParent="@32" />
+    <Link Source="@32" Target="@42" Category="Contains" FetchingParent="@32" />
+    <Link Source="@32" Target="@43" Category="Contains" FetchingParent="@32" />
+    <Link Source="@32" Target="@46" Category="Contains" FetchingParent="@32" />
+    <Link Source="@32" Target="@47" Category="Contains" FetchingParent="@32" />
+    <Link Source="@32" Target="@48" Category="Contains" FetchingParent="@32" />
+    <Link Source="@32" Target="@49" Category="Contains" FetchingParent="@32" />
+    <Link Source="@32" Target="@50" Category="Contains" FetchingParent="@32" />
+    <Link Source="@32" Target="@51" Category="Contains" FetchingParent="@32" />
+    <Link Source="@33" Target="@29" Category="References" Bounds="1063.35754394531,606.59521484375,307.08984375,153.001770019531" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="7">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@33" Target="@30" Category="References" Bounds="1339,702.491638183594,63.1654052734375,52.6875" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="6">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@33" Target="@4" Category="References" Bounds="1533.58666992188,204.037002563477,888.79345703125,561.155624389648" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="3">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@34" Target="@35" Category="References" Bounds="340.947845458984,30.567440032959,33.1756286621094,26.120059967041" IsSourceVirtualized="True" Weight="16" />
+    <Link Source="@37" Target="@15" Category="References" Bounds="675.014587402344,266.332183837891,76.3997802734375,145.564880371094" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="3">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@4" Target="@21" Category="CodeSchema_Calls" Bounds="2446.05078125,142.813354492188,48.069091796875,27.2491455078125" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="13" />
+    <Link Source="@4" Target="@22" Category="CodeSchema_Calls" Bounds="2439.91870117188,195.0625,96.26953125,607.831115722656" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="3" />
+    <Link Source="@4" Target="@29" Category="References" Bounds="989.317565917969,184.234268188477,1355.41070556641,388.719589233398" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="21">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@4" Target="@30" Category="References" Bounds="1364.0625,195.0625,1058.9619140625,467.876770019531" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="58">
       <Category Ref="CodeSchema_Calls" />
       <Category Ref="InheritsFrom" />
     </Link>
-    <Link Source="@4" Target="@29" Category="References" Bounds="1210.85168457031,422.052490234375,54.7127685546875,28.596435546875" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="35">
+    <Link Source="@4" Target="@33" Category="References" Bounds="1542.58276367188,195.0625,928.2578125,569.94775390625" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="35">
       <Category Ref="CodeSchema_Calls" />
     </Link>
-    <Link Source="@40" Target="@14" Category="CodeSchema_Calls" IsTargetVirtualized="True" Weight="3">
+    <Link Source="@41" Target="@20" Category="CodeSchema_Calls" Bounds="1698.3266799004,710.072420972285,270.663956357333,179.689292894902" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@42" Target="@46" Category="CodeSchema_Calls" Bounds="2014.849609375,418.915863037109,157.8115234375,30.4808044433594" Weight="1" />
+    <Link Source="@43" Target="@46" Category="CodeSchema_Calls" Bounds="1952,428.396667480469,0,21" Weight="1" />
+    <Link Source="@43" Target="@51" Category="CodeSchema_Calls" Bounds="1850.82861328125,422.659576416016,68.7303466796875,26.7370910644531" Weight="1" />
+    <Link Source="@44" Target="@14" Category="CodeSchema_Calls" IsTargetVirtualized="True" Weight="3">
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
-    <Link Source="@40" Target="@15" Category="References" Bounds="687,254.248840332031,55.1062622070313,85.8761596679688" IsTargetVirtualized="True" Weight="7">
+    <Link Source="@44" Target="@15" Category="References" Bounds="684.637390136719,268.489990234375,83.3626098632813,313.262939453125" IsTargetVirtualized="True" Weight="7">
       <Category Ref="CodeSchema_Calls" />
     </Link>
-    <Link Source="@40" Target="@33" Category="CodeSchema_Calls" Bounds="786,317.4375,0,22.6875" IsTargetVirtualized="True" Weight="1" />
-    <Link Source="@42" Target="@26" Category="CodeSchema_ReturnTypeLink" Bounds="537.348483664318,42.8131811239774,125.270013334263,199.436906738573" Weight="1" />
-    <Link Source="@42" Target="@29" Category="CodeSchema_Calls" Bounds="689.057420446642,202.603159607913,114.720063465536,176.07350176904" IsTargetVirtualized="True" Weight="1" />
-    <Link Source="@42" Target="@43" Category="CodeSchema_Calls" Bounds="566.714721679688,634.072509765625,156.292785644531,30.3997802734375" Weight="1" />
-    <Link Source="@43" Target="@16" Category="CodeSchema_Calls" Bounds="431.535882013262,65.239051212371,74.1917819092826,322.012373125036" IsTargetVirtualized="True" Weight="2" />
-    <Link Source="@43" Target="@26" Category="References" Bounds="525.436721209309,-12.4269688760227,8.56474669531656,253.30348079036" Weight="1" />
-    <Link Source="@43" Target="@29" Category="CodeSchema_ReturnTypeLink" Bounds="540.167847293906,201.541362924379,117.532655625992,121.89603629541" Weight="1" />
-    <Link Source="@44" Target="@29" Category="CodeSchema_Calls" Bounds="536.948034565939,202.404286161871,124.983424354315,176.27232033227" IsTargetVirtualized="True" Weight="1" />
-    <Link Source="@44" Target="@4" Category="CodeSchema_ReturnTypeLink" Bounds="438.559836169789,120.479153771389,166.665557745843,211.782437000928" Weight="1" />
-    <Link Source="@44" Target="@43" Category="CodeSchema_Calls" Bounds="493,641.354125976563,0,21" Weight="1" />
-    <Link Source="@45" Target="@44" Category="CodeSchema_Calls" Bounds="281.597381591797,687.61083984375,148.722473144531,29.9833374023438" Weight="1" />
-    <Link Source="@46" Target="@44" Category="CodeSchema_Calls" Bounds="497.652038574219,696.389038085938,4.60647583007813,21.2051391601563" Weight="1" />
-    <Link Source="@46" Target="@47" Category="CodeSchema_Calls" Bounds="534.699462890625,691.113891601563,62.3178100585938,26.4802856445313" Weight="1" />
-    <Link Source="@6" Target="@18" Category="InheritsFrom" Bounds="1590.18382741882,713.408043729519,73.1846988708382,176.473609550481" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="4">
+    <Link Source="@44" Target="@37" Category="CodeSchema_Calls" Bounds="620,445.400451660156,41.7176513671875,136.163696289063" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@46" Target="@30" Category="CodeSchema_ReturnTypeLink" Bounds="537.348483664318,42.8131811239774,125.270013334263,199.436906738573" Weight="1" />
+    <Link Source="@46" Target="@33" Category="CodeSchema_Calls" Bounds="1226.26919825514,419.396641845703,520.869039155531,330.955887957043" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@46" Target="@47" Category="CodeSchema_Calls" Bounds="1741.71472167969,365.875,156.292846679688,30.3998107910156" Weight="1" />
+    <Link Source="@47" Target="@18" Category="CodeSchema_Calls" Bounds="431.535882013262,65.239051212371,74.1917819092826,322.012373125036" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@47" Target="@30" Category="References" Bounds="525.436721209309,-12.4269688760227,8.56474669531656,253.30348079036" Weight="1" />
+    <Link Source="@47" Target="@33" Category="CodeSchema_ReturnTypeLink" Bounds="1212.60402122366,364.156543141068,261.783634535301,383.588782177665" Weight="1" />
+    <Link Source="@48" Target="@33" Category="CodeSchema_Calls" Bounds="1214.40209947229,419.396643141068,258.667019197405,328.709776473586" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@48" Target="@4" Category="CodeSchema_ReturnTypeLink" Bounds="238.84351921597,198.800986231695,427.803637223481,195.355656909399" Weight="1" />
+    <Link Source="@48" Target="@47" Category="CodeSchema_Calls" Bounds="1668,373.156646728516,0,21" Weight="1" />
+    <Link Source="@49" Target="@48" Category="CodeSchema_Calls" Bounds="1456.59741210938,419.413330078125,148.722412109375,29.9833374023438" Weight="1" />
+    <Link Source="@50" Target="@48" Category="CodeSchema_Calls" Bounds="1672.65197753906,428.191528320313,4.6065673828125,21.2051391601563" Weight="1" />
+    <Link Source="@50" Target="@51" Category="CodeSchema_Calls" Bounds="1709.69946289063,422.916381835938,62.31787109375,26.4802856445313" Weight="1" />
+    <Link Source="@6" Target="@20" Category="InheritsFrom" Bounds="1590.18382741882,713.408043729519,73.1846988708382,176.473609550481" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="4">
       <Category Ref="CodeSchema_Calls" />
     </Link>
-    <Link Source="@7" Target="@16" Category="InheritsFrom" Bounds="1485.49377441406,537.596557617188,73.2264404296875,312.165100097656" Weight="1" />
+    <Link Source="@6" Target="@29" Category="References" Bounds="841,615.68415328,2.27373675443232E-13,62.8074999999997" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@7" Target="@18" Category="InheritsFrom" Bounds="1081.69934082031,268.889801025391,104.094360351563,369.601837158203" Weight="1" />
     <Link Source="@7" Target="@6" Category="Contains" FetchingParent="@7" />
-    <Link Source="@8" Target="@29" Category="CodeSchema_Calls" Bounds="33,468.502105712891,1044.41613769531,411.259552001953" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
-    <Link Source="@8" Target="@47" Category="CodeSchema_Calls" Bounds="138.300242916774,691.026390841409,457.788826240038,188.855262438591" IsSourceVirtualized="True" Weight="1" />
-    <Link Source="LINQExpressionsToEDMCQTExpressions" Target="@21" Bounds="1825.0986328125,996.464477539063,39.7427978515625,26.6721801757813" />
-    <Link Source="LINQExpressionsToEDMCQTExpressions" Target="@22" Bounds="1912.85913085938,913.749755859375,14.140869140625,109.386901855469" />
+    <Link Source="@8" Target="@29" Category="References" Bounds="674,601.610168457031,229.122680664063,210.256469726563" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="17">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@8" Target="@33" Category="CodeSchema_Calls" Bounds="738,771.27490234375,623.42041015625,40.5917358398438" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@8" Target="@51" Category="CodeSchema_Calls" Bounds="138.300242916774,691.026390841409,457.788826240038,188.855262438591" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="LINQExpressionsToEDMCQTExpressions" Target="@23" Bounds="179.264251708984,198.424240112305,70.3445281982422,28.3257598876953" />
+    <Link Source="LINQExpressionsToEDMCQTExpressions" Target="@24" Bounds="129,147.375,0,79.375" />
     <Link Source="_standardGraphExternalsGroup" Target="@14" Category="Contains" />
   </Links>
   <Categories>
     <Category Id="Category1" Label="类别 1" Background="#FFE51400" IsTag="True" />
+    <Category Id="Category10" Label="类别 10" Background="#FF672878" IsTag="True" />
     <Category Id="CodeSchema_Calls" Label="调用" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="调用者" OutgoingActionLabel="调用" />
     <Category Id="CodeSchema_Class" Label="类" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="类" />
     <Category Id="CodeSchema_Enum" Label="枚举" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Enum" NavigationActionLabel="枚举" />
@@ -233,6 +307,7 @@
     <Property Id="Expression" DataType="System.String" />
     <Property Id="FetchingParent" DataType="Microsoft.VisualStudio.GraphModel.GraphNodeId" />
     <Property Id="FunctionTypeFlags" Label="FunctionTypeFlags" Description="FunctionTypeFlags" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
     <Property Id="Group" Label="组" Description="将节点显示为组" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
     <Property Id="GroupLabel" DataType="System.String" />
     <Property Id="Icon" Label="图标" Description="图标" DataType="System.String" />
@@ -284,40 +359,48 @@
     <Alias n="13" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/System.Data.dll" />
     <Alias n="14" Id="(@13 Namespace=System.Data.Common Type=DbCommand)" />
     <Alias n="15" Id="(@1 Namespace=System.Data.Entity.Core.Common.CommandTrees Type=DbCommandTree)" />
-    <Alias n="16" Id="(@1 @5 Type=ELinqQueryState)" />
-    <Alias n="17" Id="(@1 Namespace=System.Data.Entity.Core.EntityClient Type=EntityCommand)" />
-    <Alias n="18" Id="(@1 Namespace=System.Linq.Expressions Type=EntityExpressionVisitor)" />
-    <Alias n="19" Id="(@1 Namespace=System.Data.Entity.Core.Objects.Internal Type=EntitySqlQueryBuilder)" />
-    <Alias n="20" Id="(@1 @2 Type=EntitySqlQueryState)" />
-    <Alias n="21" Id="(@1 @5 Type=ExpressionConverter)" />
-    <Alias n="22" Id="(@1 @5 Type=Funcletizer)" />
-    <Alias n="23" Id="(@1 Namespace=System.Data.Entity.Core.Common.EntitySql.AST Type=Identifier)" />
-    <Alias n="24" Id="(@1 @5 Type=LinqExpressionNormalizer)" />
-    <Alias n="25" Id="(@1 Namespace=System.Data.Entity.Core.Common.EntitySql.AST Type=Node)" />
-    <Alias n="26" Id="(@1 @2 Type=ObjectQuery)" />
-    <Alias n="27" Id="Type=ObjectQueryProvider" />
-    <Alias n="28" Id="(@1 @5 @27)" />
-    <Alias n="29" Id="(@1 Namespace=System.Data.Entity.Core.Objects.Internal Type=ObjectQueryState)" />
-    <Alias n="30" Id="(@1 @5 Type=ReflectionUtil)" />
-    <Alias n="31" Id="(@1 @5 Type=SequenceMethod)" />
-    <Alias n="32" Uri="Assembly=$(6f4bb80b-5f74-44d3-a77f-0025dfa48c1a.OutputPathUri)" />
-    <Alias n="33" Id="(@32 Namespace=System.Data.Entity.SqlServer.SqlGen Type=SqlGenerator)" />
-    <Alias n="34" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/System.Core.dll" />
-    <Alias n="35" Id="(@34 Namespace=System.Linq.Expressions Type=Expression)" />
-    <Alias n="36" Id="OverloadingParameters=[@35]" />
-    <Alias n="37" Id="(@1 @5 Type=Funcletizer Member=(Name=ReplaceRootContextParameter @36))" />
-    <Alias n="38" Id="(@1 @5 @27 Member=(Name=System.Linq.IQueryProvider.CreateQuery @36))" />
-    <Alias n="39" Id="(@1 @5 @27 Member=(Name=System.Linq.IQueryProvider.Execute @36))" />
-    <Alias n="40" Id="(@32 Namespace=System.Data.Entity.SqlServer Type=SqlProviderServices Member=(Name=CreateCommand OverloadingParameters=[(@1 Namespace=System.Data.Entity.Core.Common Type=DbProviderManifest),@15]))" />
-    <Alias n="41" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll" />
-    <Alias n="42" Id="(@1 @5 @27 Member=(Name=CreateQuery OverloadingParameters=[@35,(@41 Namespace=System Type=Type)]))" />
-    <Alias n="43" Id="(@1 @5 @27 Member=(Name=GetObjectQueryState OverloadingParameters=[@26,@35,(@41 Namespace=System Type=Type)]))" />
-    <Alias n="44" Id="(@1 @5 @27 Member=(Name=CreateQuery @3 @36))" />
-    <Alias n="45" Id="(@1 @5 @27 Member=(Name=System.Linq.IQueryProvider.CreateQuery @3 @36))" />
-    <Alias n="46" Id="(@1 @5 @27 Member=(Name=System.Linq.IQueryProvider.Execute @3 @36))" />
-    <Alias n="47" Id="(@1 @5 @27 Member=(Name=ExecuteSingle @3 OverloadingParameters=[(@41 Namespace=System.Collections.Generic Type=(Name=IEnumerable @3 GenericArguments=[(ParameterIdentifier=0)])),@35]))" />
+    <Alias n="16" Id="(@1 Namespace=System.Data.Entity Type=DbContext)" />
+    <Alias n="17" Id="(@1 Namespace=System.Data.Entity Type=DbSet)" />
+    <Alias n="18" Id="(@1 @5 Type=ELinqQueryState)" />
+    <Alias n="19" Id="(@1 Namespace=System.Data.Entity.Core.EntityClient Type=EntityCommand)" />
+    <Alias n="20" Id="(@1 Namespace=System.Linq.Expressions Type=EntityExpressionVisitor)" />
+    <Alias n="21" Id="(@1 Namespace=System.Data.Entity.Core.Objects.Internal Type=EntitySqlQueryBuilder)" />
+    <Alias n="22" Id="(@1 @2 Type=EntitySqlQueryState)" />
+    <Alias n="23" Id="(@1 @5 Type=ExpressionConverter)" />
+    <Alias n="24" Id="(@1 @5 Type=Funcletizer)" />
+    <Alias n="25" Id="(@1 Namespace=System.Data.Entity.Core.Common.EntitySql.AST Type=Identifier)" />
+    <Alias n="26" Id="(@1 Namespace=System.Data.Entity.Internal Type=InternalContext)" />
+    <Alias n="27" Id="(@1 @5 Type=LinqExpressionNormalizer)" />
+    <Alias n="28" Id="(@1 Namespace=System.Data.Entity.Core.Common.EntitySql.AST Type=Node)" />
+    <Alias n="29" Id="(@1 @2 Type=ObjectContext)" />
+    <Alias n="30" Id="(@1 @2 Type=ObjectQuery)" />
+    <Alias n="31" Id="Type=ObjectQueryProvider" />
+    <Alias n="32" Id="(@1 @5 @31)" />
+    <Alias n="33" Id="(@1 Namespace=System.Data.Entity.Core.Objects.Internal Type=ObjectQueryState)" />
+    <Alias n="34" Id="(@1 @5 Type=ReflectionUtil)" />
+    <Alias n="35" Id="(@1 @5 Type=SequenceMethod)" />
+    <Alias n="36" Uri="Assembly=$(6f4bb80b-5f74-44d3-a77f-0025dfa48c1a.OutputPathUri)" />
+    <Alias n="37" Id="(@36 Namespace=System.Data.Entity.SqlServer.SqlGen Type=SqlGenerator)" />
+    <Alias n="38" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/System.Core.dll" />
+    <Alias n="39" Id="(@38 Namespace=System.Linq.Expressions Type=Expression)" />
+    <Alias n="40" Id="OverloadingParameters=[@39]" />
+    <Alias n="41" Id="(@1 @5 Type=Funcletizer Member=(Name=ReplaceRootContextParameter @40))" />
+    <Alias n="42" Id="(@1 @5 @31 Member=(Name=System.Linq.IQueryProvider.CreateQuery @40))" />
+    <Alias n="43" Id="(@1 @5 @31 Member=(Name=System.Linq.IQueryProvider.Execute @40))" />
+    <Alias n="44" Id="(@36 Namespace=System.Data.Entity.SqlServer Type=SqlProviderServices Member=(Name=CreateCommand OverloadingParameters=[(@1 Namespace=System.Data.Entity.Core.Common Type=DbProviderManifest),@15]))" />
+    <Alias n="45" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll" />
+    <Alias n="46" Id="(@1 @5 @31 Member=(Name=CreateQuery OverloadingParameters=[@39,(@45 Namespace=System Type=Type)]))" />
+    <Alias n="47" Id="(@1 @5 @31 Member=(Name=GetObjectQueryState OverloadingParameters=[@30,@39,(@45 Namespace=System Type=Type)]))" />
+    <Alias n="48" Id="(@1 @5 @31 Member=(Name=CreateQuery @3 @40))" />
+    <Alias n="49" Id="(@1 @5 @31 Member=(Name=System.Linq.IQueryProvider.CreateQuery @3 @40))" />
+    <Alias n="50" Id="(@1 @5 @31 Member=(Name=System.Linq.IQueryProvider.Execute @3 @40))" />
+    <Alias n="51" Id="(@1 @5 @31 Member=(Name=ExecuteSingle @3 OverloadingParameters=[(@45 Namespace=System.Collections.Generic Type=(Name=IEnumerable @3 GenericArguments=[(ParameterIdentifier=0)])),@39]))" />
   </IdentifierAliases>
   <Styles>
+    <Style TargetType="Node" GroupLabel="类别 10" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('Category10')" />
+      <Setter Property="Background" Value="#FF672878" />
+    </Style>
     <Style TargetType="Node" GroupLabel="类别 1" ValueLabel="具有类别">
       <Condition Expression="HasCategory('Category1')" />
       <Setter Property="Background" Value="#FFE51400" />
@@ -457,8 +540,11 @@
     </Style>
   </Styles>
   <Paths>
+    <Path Id="6f4bb80b-5f74-44d3-a77f-0025dfa48c1a.OutputPath" Value="E:\Workspace\Git\EntityFramework6\bin\Debug\EntityFramework.SqlServer.dll" />
     <Path Id="6f4bb80b-5f74-44d3-a77f-0025dfa48c1a.OutputPathUri" Value="file:///E:/Workspace/Git/EntityFramework6/bin/Debug/EntityFramework.SqlServer.dll" />
+    <Path Id="e06d1c12-efe8-4413-a15c-ae01fc158f2f.OutputPath" Value="E:\Workspace\Git\EntityFramework6\bin\Debug\EntityFramework.dll" />
     <Path Id="e06d1c12-efe8-4413-a15c-ae01fc158f2f.OutputPathUri" Value="file:///E:/Workspace/Git/EntityFramework6/bin/Debug/EntityFramework.dll" />
+    <Path Id="FxReferenceAssemblies" Value="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework" />
     <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
   </Paths>
 </DirectedGraph>
