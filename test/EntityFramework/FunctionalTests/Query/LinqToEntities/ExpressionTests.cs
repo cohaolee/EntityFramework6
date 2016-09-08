@@ -9,12 +9,14 @@ namespace System.Data.Entity.Query.LinqToEntities
 
     public class ExpressionTests : FunctionalTestBase
     {
+        public const string ConnectionString = "Data Source=.; Initial Catalog=tempdb; User ID=sa; Password=admin888;";
+
         [Fact]
         public void Expression_from_variable()
         {
             Expression<Func<Product, bool>> testExpression = p => p.Id == 1;
 
-            using (var context = new SimpleModelContext())
+            using (var context = new SimpleModelContext(ConnectionString))
             {
                 var products = context.Products.Where(testExpression);
 

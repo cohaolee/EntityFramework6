@@ -5,7 +5,7 @@ namespace System.Data.Entity.Core.Common.CommandTrees
     using System.Data.Entity.Core.Metadata.Edm;
     using System.Data.Entity.Utilities;
 
-    /// <summary>Implements the basic functionality required by expressions that accept a single expression argument. </summary>
+    /// <summary>一元表达式 Implements the basic functionality required by expressions that accept a single expression argument. </summary>
     public abstract class DbUnaryExpression : DbExpression
     {
         private readonly DbExpression _argument;

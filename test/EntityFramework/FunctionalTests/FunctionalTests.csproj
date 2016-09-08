@@ -6,7 +6,7 @@
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{23330EF8-2593-4B0A-A70F-12E6BE1F46C4}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>System.Data.Entity</RootNamespace>
     <AssemblyName>EntityFramework.FunctionalTests</AssemblyName>
@@ -73,6 +73,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <DelaySign>true</DelaySign>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
@@ -247,6 +250,7 @@
     <Compile Include="ProductivityApi\DeadlockTests.cs" />
     <Compile Include="ProductivityApi\SimpleScenariosForSqlCe35.cs" />
     <Compile Include="ProductivityApi\TemplateTests.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Query\Bug2612.cs" />
     <Compile Include="Query\Bug952621.cs" />
     <Compile Include="Query\ComparisonTestst.cs" />

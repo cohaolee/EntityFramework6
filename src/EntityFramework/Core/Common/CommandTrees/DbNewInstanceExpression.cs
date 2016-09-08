@@ -9,7 +9,7 @@ namespace System.Data.Entity.Core.Common.CommandTrees
     using System.Data.Entity.Utilities;
     using System.Diagnostics;
 
-    /// <summary>Represents the construction of a new instance of a given type, including set and record types. This class cannot be inherited. </summary>
+    /// <summary>新建实例表达式 Represents the construction of a new instance of a given type, including set and record types. This class cannot be inherited. </summary>
     public sealed class DbNewInstanceExpression : DbExpression
     {
         private readonly DbExpressionList _elements;

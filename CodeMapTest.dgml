@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" GraphDirection="BottomToTop" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@10 @11 Type=ProductBase)" Category="CodeSchema_Class" Bounds="1697.68,227.8025,132.64,25" CodeSchemaProperty_IsPublic="True" CommonLabel="ProductBase" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="ProductBase" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/test/EntityFramework/FunctionalTests.Transitional/TestModels/SimpleModel/ProductBase.cs StartLineNumber=4 StartCharacterOffset=4 EndLineNumber=4 EndCharacterOffset=4)" />
+    <Node Id="(@18 Namespace=System.Data.Entity.Query.LinqToEntities Type=ExpressionTests)" Category="CodeSchema_Class" Bounds="1686.33666666667,803.4925,151.326666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="ExpressionTests" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="ExpressionTests" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/test/EntityFramework/FunctionalTests/Query/LinqToEntities/ExpressionTests.cs StartLineNumber=9 StartCharacterOffset=4 EndLineNumber=9 EndCharacterOffset=4)" />
+    <Node Id="(@4 @5 Type=DefaultManifestTokenResolver)" Category="CodeSchema_Class" Bounds="0,858.4925,236.696666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="DefaultManifestTokenResolver" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="DefaultManifestTokenResolver" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Infrastructure/DefaultManifestTokenResolver.cs StartLineNumber=17 StartCharacterOffset=4 EndLineNumber=17 EndCharacterOffset=4)" />
+    <Node Id="@12" Category="CodeSchema_Class" Bounds="1860.41,227.8025,113.18,25" CodeSchemaProperty_IsPublic="True" CommonLabel="Category" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Category" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/test/EntityFramework/FunctionalTests.Transitional/TestModels/SimpleModel/Category.cs StartLineNumber=6 StartCharacterOffset=4 EndLineNumber=6 EndCharacterOffset=4)" />
+    <Node Id="@13" Category="CodeSchema_Class" Bounds="232.765,227.8025,166.47,25" CodeSchemaProperty_IsPublic="True" CommonLabel="DbConnectionInfo" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="DbConnectionInfo" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Infrastructure/DbConnectionInfo.cs StartLineNumber=14 StartCharacterOffset=4 EndLineNumber=14 EndCharacterOffset=4)" />
+    <Node Id="@14" Category="CodeSchema_Class" Bounds="1578.65666666667,372.35,122.686666666666,25" CodeSchemaProperty_IsPublic="True" CommonLabel="DbContext" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="DbContext" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/DbContext.cs StartLineNumber=56 StartCharacterOffset=4 EndLineNumber=56 EndCharacterOffset=4)" />
+    <Node Id="@15" Category="CodeSchema_Class" Bounds="1512.39166666667,227.8025,155.216666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="DbModelBuilder" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="DbModelBuilder" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/workspace/git/entityframework6/src/entityframework/dbmodelbuilder.cs StartLineNumber=47 StartCharacterOffset=4 EndLineNumber=47 EndCharacterOffset=4)" />
+    <Node Id="@16" Category="CodeSchema_Class" Bounds="817.58,372.35,160.84,25" CodeSchemaProperty_IsInternal="True" CommonLabel="DbQueryProvider" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="DbQueryProvider" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Internal/Linq/DbQueryProvider.cs StartLineNumber=19 StartCharacterOffset=4 EndLineNumber=19 EndCharacterOffset=4)" />
+    <Node Id="@17" Category="CodeSchema_Class" Bounds="574.363333333333,544.3975,167.273333333333,85.24" CodeSchemaProperty_IsInternal="True" CommonLabel="DbQueryVisitor" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Class" Label="DbQueryVisitor" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Internal/Linq/DbQueryVisitor.cs StartLineNumber=16 StartCharacterOffset=4 EndLineNumber=16 EndCharacterOffset=4)" />
+    <Node Id="@20" Category="CodeSchema_Class" Bounds="612.311666666667,210.3025,158.8,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="ExpressionVisitor" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="ExpressionVisitor" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@21" Category="CodeSchema_Class" Bounds="1676.535,746.685,170.93,25" CodeSchemaProperty_IsPublic="True" CommonLabel="FunctionalTestBase" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="FunctionalTestBase" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/test/EntityFramework/FunctionalTests.Transitional/TestHelpers/FunctionalTestBase.cs StartLineNumber=0 StartCharacterOffset=0 EndLineNumber=0 EndCharacterOffset=0)" />
+    <Node Id="@22" Category="CodeSchema_Interface" Bounds="1011.27666666667,0,143.446666666667,25" CodeSchemaProperty_IsInternal="True" CommonLabel="IInternalQuery" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Interface" Label="IInternalQuery" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Internal/Linq/IInternalQuery.cs StartLineNumber=14 StartCharacterOffset=4 EndLineNumber=14 EndCharacterOffset=4)" />
+    <Node Id="@23" Category="CodeSchema_Interface" Bounds="701.631666666667,56.6875,126.736666666667,25" CodeSchemaProperty_IsInternal="True" CommonLabel="IInternalSet" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Interface" Label="IInternalSet" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Internal/Linq/IInternalSet.cs StartLineNumber=11 StartCharacterOffset=4 EndLineNumber=11 EndCharacterOffset=4)" />
+    <Node Id="@24" Category="CodeSchema_Interface" Bounds="678.491666666667,113.375,173.016666666667,25" CodeSchemaProperty_IsInternal="True" CommonLabel="IInternalSetAdapter" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Interface" Label="IInternalSetAdapter" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Internal/Linq/IInternalSetAdapter.cs StartLineNumber=8 StartCharacterOffset=4 EndLineNumber=8 EndCharacterOffset=4)" />
+    <Node Id="@26" Category="CodeSchema_Class" Bounds="31.52,227.8025,170.96,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsInternal="True" CommonLabel="InternalConnection" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="InternalConnection" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Internal/InternalConnection.cs StartLineNumber=21 StartCharacterOffset=4 EndLineNumber=21 EndCharacterOffset=4)" />
+    <Node Id="@28" Category="CodeSchema_Class" Bounds="913.834166666667,170.0625,260.331666666667,140.48" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsInternal="True" CommonLabel="InternalContext" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Class" Label="InternalContext" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/workspace/git/entityframework6/src/entityframework/internal/internalcontext.cs StartLineNumber=49 StartCharacterOffset=4 EndLineNumber=49 EndCharacterOffset=4)" />
+    <Node Id="@29" Category="CodeSchema_Class" Bounds="57,342.23,196,85.24" CodeSchemaProperty_IsInternal="True" CommonLabel="LazyInternalConnection" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Class" Label="LazyInternalConnection" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Internal/LazyInternalConnection.cs StartLineNumber=22 StartCharacterOffset=4 EndLineNumber=22 EndCharacterOffset=4)" />
+    <Node Id="@30" Category="CodeSchema_Class" Bounds="563.996666666667,342.23,192.006666666667,85.24" CodeSchemaProperty_IsInternal="True" CommonLabel="LazyInternalContext" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Class" Label="LazyInternalContext" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/workspace/git/entityframework6/src/entityframework/internal/lazyinternalcontext.cs StartLineNumber=25 StartCharacterOffset=4 EndLineNumber=25 EndCharacterOffset=4)" />
+    <Node Id="@31" Category="CodeSchema_Class" Bounds="1762.94333333333,372.35,106.113333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="Product" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Product" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/test/EntityFramework/FunctionalTests.Transitional/TestModels/SimpleModel/Product.cs StartLineNumber=4 StartCharacterOffset=4 EndLineNumber=4 EndCharacterOffset=4)" />
+    <Node Id="@32" Category="CodeSchema_Class" Bounds="1671.02666666667,574.5175,181.946666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="SimpleModelContext" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="SimpleModelContext" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/test/EntityFramework/FunctionalTests.Transitional/TestModels/SimpleModel/SimpleModelContext.cs StartLineNumber=9 StartCharacterOffset=4 EndLineNumber=9 EndCharacterOffset=4)" />
+    <Node Id="@33" Category="CodeSchema_Class" Bounds="346.595,342.23,186.81,85.24" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="SqlConnectionFactory" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Class" Label="SqlConnectionFactory" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Infrastructure/SqlConnectionFactory.cs StartLineNumber=26 StartCharacterOffset=4 EndLineNumber=26 EndCharacterOffset=4)" />
+    <Node Id="@35" Category="CodeSchema_Class" Bounds="612.311666666667,265.3025,219.376666666667,25" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="SqlConnectionStringBuilder" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="SqlConnectionStringBuilder" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@36" Category="CodeSchema_Method" Bounds="594.363333333333,584.3975,127.273333333333,25.24" CodeSchemaProperty_IsProtected="True" CommonLabel="VisitMethodCall" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法" IsOverloaded="True" Label="VisitMethodCall" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Internal/Linq/DbQueryVisitor.cs StartLineNumber=64 StartCharacterOffset=0 EndLineNumber=64 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@38" Category="CodeSchema_Method" Bounds="370.355,382.23,139.29,25.24" CodeSchemaProperty_IsPublic="True" CommonLabel="CreateConnection" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法" Label="CreateConnection" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Infrastructure/SqlConnectionFactory.cs StartLineNumber=103 StartCharacterOffset=0 EndLineNumber=103 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@39" Category="CodeSchema_Method" Bounds="868.655234636488,554.3975,197.163333333333,25.24" CodeSchemaProperty_IsPrivate="True" CommonLabel="GetInternalQueryWithCheck" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法" Label="GetInternalQueryWithCheck" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/Workspace/Git/EntityFramework6/src/EntityFramework/Infrastructure/DbQuery`.cs StartLineNumber=235 StartCharacterOffset=0 EndLineNumber=235 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@40" Category="CodeSchema_Method" Bounds="961.0425,265.3025,54.2066666666667,25.24" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="Set" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法 虚拟" Label="Set" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/workspace/git/entityframework6/src/entityframework/internal/internalcontext.cs StartLineNumber=735 StartCharacterOffset=8 EndLineNumber=735 EndCharacterOffset=8)" />
+    <Node Id="@41" Category="CodeSchema_Field" Bounds="933.834166666667,210.0625,108.623333333333,25.24" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="_genericSets" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/workspace/git/entityframework6/src/entityframework/internal/internalcontext.cs StartLineNumber=102 StartCharacterOffset=63 EndLineNumber=102 EndCharacterOffset=63)" />
+    <Node Id="@42" Category="CodeSchema_Field" Bounds="583.996666666667,382.23,152.006666666667,25.24" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="_internalConnection" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/workspace/git/entityframework6/src/entityframework/internal/lazyinternalcontext.cs StartLineNumber=49 StartCharacterOffset=36 EndLineNumber=49 EndCharacterOffset=36)" />
+    <Node Id="@43" Category="CodeSchema_Field" Bounds="906.753567969821,499.1575,120.966666666667,25.24" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="_internalQuery" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/Workspace/Git/EntityFramework6/src/EntityFramework/Infrastructure/DbQuery`.cs StartLineNumber=28 StartCharacterOffset=49 EndLineNumber=28 EndCharacterOffset=49)" />
+    <Node Id="@44" Category="CodeSchema_Method" Bounds="113.246666666667,382.23,83.5066666666667,25.24" CodeSchemaProperty_IsPrivate="True" CommonLabel="Initialize" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法" Label="Initialize" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Internal/LazyInternalConnection.cs StartLineNumber=252 StartCharacterOffset=0 EndLineNumber=252 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@45" Category="CodeSchema_Method" Bounds="1046.12583333333,265.3025,108.04,25.24" CodeSchemaProperty_IsProtected="True" CommonLabel="ResetDbSets" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="方法" Label="ResetDbSets" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/workspace/git/entityframework6/src/entityframework/internal/internalcontext.cs StartLineNumber=1283 StartCharacterOffset=0 EndLineNumber=1283 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@46" Category="CodeSchema_Property" Bounds="1140.8890372428,639.7575,256.695728120715,25" CodeSchemaProperty_IsPrivate="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="属性分配" Group="Collapsed" Label="System‎.Linq‎.IQueryable‎.Expression" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/workspace/git/entityframework6/src/entityframework/infrastructure/dbquery`.cs StartLineNumber=194 StartCharacterOffset=8 EndLineNumber=194 EndCharacterOffset=8)" />
+    <Node Id="@47" Category="CodeSchema_Method" Bounds="844.415234636488,649.6375,245.643333333333,25.24" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="属性获取" IsCodeType="False" IsOverloaded="False" IsOverridable="False" Label="System‎.Linq‎.IQueryable‎.get_Provider" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" MustImplement="False" SourceLocation="(Assembly=file:///e:/workspace/git/entityframework6/src/entityframework/infrastructure/dbquery`.cs StartLineNumber=206 StartCharacterOffset=12 EndLineNumber=206 EndCharacterOffset=12)" />
+    <Node Id="@48" Category="CodeSchema_Property" Bounds="824.415234636488,609.6375,285.643333333333,85.24" CodeSchemaProperty_IsPrivate="True" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="属性分配" Group="Expanded" Label="System‎.Linq‎.IQueryable‎.Provider" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/workspace/git/entityframework6/src/entityframework/infrastructure/dbquery`.cs StartLineNumber=203 StartCharacterOffset=8 EndLineNumber=203 EndCharacterOffset=8)" />
+    <Node Id="@7" Category="CodeSchema_Class" Bounds="804.415234636488,459.1575,613.169530727024,255.72" CodeSchemaProperty_IsPublic="True" CommonLabel="DbQuery‎&lt;TResult‎&gt;" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Class" Label="DbQuery‎&lt;TResult‎&gt;" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/workspace/git/entityframework6/src/entityframework/infrastructure/dbquery`.cs StartLineNumber=18 StartCharacterOffset=4 EndLineNumber=18 EndCharacterOffset=4)" />
+    <Node Id="@9" Category="CodeSchema_Interface" Bounds="1235.67833333333,372.35,214.643333333333,25" CodeSchemaProperty_IsInternal="True" CommonLabel="IInternalQuery‎&lt;TElement‎&gt;" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Interface" Label="IInternalQuery‎&lt;TElement‎&gt;" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Workspace/Git/EntityFramework6/src/EntityFramework/Internal/Linq/IInternalQuery`.cs StartLineNumber=11 StartCharacterOffset=4 EndLineNumber=11 EndCharacterOffset=4)" />
+    <Node Id="_standardGraphExternalsGroup" Category="Externals" Bounds="592.311666666667,170.3025,259.376666666667,140" Group="Expanded" Label="外部" />
+    <Node Id="保存连接信息" Category="Comment" Bounds="315,574.3975,92,25.24" />
+    <Node Id="和sql有关" Category="Comment" Bounds="736.788333333333,746.565,72.4233333333334,25.24" />
+  </Nodes>
+  <Links>
+    <Link Source="(@18 Namespace=System.Data.Entity.Query.LinqToEntities Type=ExpressionTests)" Target="@21" Category="InheritsFrom" Bounds="1762,781.184997558594,0,22.3074951171875" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@12" Target="@31" Category="References" Bounds="1835.53991699219,252.802505493164,75.6517333984375,113.320053100586" IsSourceVirtualized="True" Weight="5" />
+    <Link Source="@14" Target="@15" Category="References" Bounds="1597.26599121094,261.308013916016,38.41015625,111.0419921875" IsSourceVirtualized="True" Weight="2" />
+    <Link Source="@14" Target="@28" Category="References" Bounds="1061.38896532848,203.836294681821,49.9709119609913,55.1387053181786" IsSourceVirtualized="True" Weight="2">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@14" Target="@40" Category="CodeSchema_Calls" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@16" Target="@20" Category="CodeSchema_Calls" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@16" Target="@22" Category="References" Bounds="883,23.8271083831787,120.073303222656,348.522897720337" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="10">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@16" Target="@28" Category="References" Bounds="910.625610351563,316.874572753906,56.0328979492188,55.4754333496094" IsSourceVirtualized="True" Weight="4">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@17" Target="@20" Category="InheritsFrom" Bounds="661.944897845148,244.264143057341,27.7802792228523,300.133374032503" Weight="1" />
+    <Link Source="@17" Target="@36" Category="Contains" FetchingParent="@17" />
+    <Link Source="@21" Target="@12" Category="References" Bounds="1841.92626953125,261.390014648438,102.07373046875,485.294982910156" IsSourceVirtualized="True" Weight="4" />
+    <Link Source="@21" Target="@14" Category="References" Bounds="1640,406.350006103516,68.423095703125,340.334991455078" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="10">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@21" Target="@15" Category="CodeSchema_Calls" Bounds="1548,260.89111328125,130.124389648438,487.137756347656" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="14" />
+    <Link Source="@21" Target="@31" Category="References" Bounds="1815.57690429688,403.217407226563,68.423095703125,343.467590332031" IsSourceVirtualized="True" Weight="4" />
+    <Link Source="@21" Target="@32" Category="References" Bounds="1762,608.517517089844,0,138.16748046875" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="7">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@22" Target="@28" Category="CodeSchema_ReturnTypeLink" Bounds="1075.32263183594,25,7.6773681640625,136.330810546875" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@23" Target="@22" Category="Implements" Bounds="802.92724609375,22.3954086303711,199.076599121094,34.2920913696289" Weight="1" />
+    <Link Source="@24" Target="@23" Category="CodeSchema_ReturnTypeLink" Bounds="765,90.6875,0,22.6875" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@28" Target="@40" Category="Contains" FetchingParent="@28" />
+    <Link Source="@28" Target="@41" Category="Contains" FetchingParent="@28" />
+    <Link Source="@28" Target="@45" Category="Contains" FetchingParent="@28" />
+    <Link Source="@29" Target="@26" Category="InheritsFrom" Bounds="98,34.5,0,22.1875" Weight="1" />
+    <Link Source="@29" Target="@44" Category="Contains" FetchingParent="@29" />
+    <Link Source="@30" Target="@28" Category="InheritsFrom" Bounds="756.003356933594,306.643188476563,149.0458984375,43.0022888183594" Weight="1" />
+    <Link Source="@30" Target="@42" Category="Contains" FetchingParent="@30" />
+    <Link Source="@31" Target="(@10 @11 Type=ProductBase)" Category="InheritsFrom" Bounds="1764,262.302490234375,40.8819580078125,110.047515869141" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@31" Target="@12" Category="References" Bounds="1806.4296875,258.106750488281,86.1650390625,114.243255615234" IsSourceVirtualized="True" Weight="4">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@32" Target="@12" Category="References" Bounds="1769.19409179688,261.787353515625,146.557983398438,312.730163574219" IsSourceVirtualized="True" Weight="5" />
+    <Link Source="@32" Target="@14" Category="InheritsFrom" Bounds="1652.45166015625,405.483734130859,102.005126953125,169.033782958984" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="8">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@32" Target="@15" Category="CodeSchema_Calls" Bounds="1618.31567382813,257.468139648438,141.074829101563,317.049377441406" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="4">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@32" Target="@31" Category="References" Bounds="1765.3388671875,406.045166015625,44.999755859375,168.472351074219" IsSourceVirtualized="True" Weight="5" />
+    <Link Source="@33" Target="@38" Category="Contains" FetchingParent="@33" />
+    <Link Source="@36" Target="@20" Category="CodeSchema_Calls" Bounds="659.136889641141,244.266150821113,30.6411907240935,340.131366268731" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@38" Target="@35" Category="CodeSchema_Calls" Bounds="47.1056157253386,121.927498931885,294.184600869931,382.357018063315" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@39" Target="@43" Category="CodeSchema_FieldReference" Bounds="967.236877441406,533.397521972656,0,21" Weight="2">
+      <Category Ref="CodeSchema_FieldRead" />
+    </Link>
+    <Link Source="@39" Target="@9" Category="CodeSchema_ReturnTypeLink" Bounds="154.942628553292,579.637517089844,862.558287042206,276.111167416701" Weight="1" />
+    <Link Source="@40" Target="@24" Category="References" Bounds="123.950897133718,120.67976018471,910.510635500561,390.172819400339" IsTargetVirtualized="True" Weight="4">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@40" Target="@41" Category="CodeSchema_FieldRead" Bounds="988.145812988281,244.302505493164,0,20.9999847412109" Weight="1" />
+    <Link Source="@41" Target="@24" Category="References" Bounds="120.444917881908,121.927498931885,803.057007892391,388.550163682259" Weight="1" />
+    <Link Source="@43" Target="@9" Category="References" Bounds="148.783922367831,524.39751159668,874.779681068755,330.910692086801" Weight="1" />
+    <Link Source="@44" Target="@13" Category="CodeSchema_Calls" Bounds="168.146892562787,259.035024169234,128.338483495721,123.194981934282" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@44" Target="@26" Category="CodeSchema_Calls" Bounds="122.22239534487,261.542190985771,29.6746070494015,120.687815117744" IsTargetVirtualized="True" Weight="11" />
+    <Link Source="@45" Target="@22" Category="CodeSchema_Calls" Bounds="254.337626739342,120.48004786377,489.744481313857,332.177987199895" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@45" Target="@24" Category="References" Bounds="124.580245201862,177.167508239746,794.945334984614,333.746061686325" IsTargetVirtualized="True" Weight="5">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@45" Target="@41" Category="CodeSchema_FieldReference" Bounds="1021.80474853516,239.283538818359,52.7538452148438,26.0189514160156" Weight="1">
+      <Category Ref="CodeSchema_FieldRead" />
+    </Link>
+    <Link Source="@46" Target="@22" Category="CodeSchema_Calls" Bounds="1004.07030388611,33.9814331574457,37.3400611326401,580.416149752794" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@46" Target="@39" Category="CodeSchema_Calls" Bounds="1020.6103515625,582.082275390625,204.33984375,57.6752319335938" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@47" Target="@16" Category="CodeSchema_Calls" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@47" Target="@22" Category="CodeSchema_Calls" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@47" Target="@39" Category="CodeSchema_Calls" Weight="2" />
+    <Link Source="@48" Target="@47" Category="Contains" FetchingParent="@48" />
+    <Link Source="@7" Target="@39" Category="Contains" FetchingParent="@7" />
+    <Link Source="@7" Target="@43" Category="Contains" FetchingParent="@7" />
+    <Link Source="@7" Target="@46" Category="Contains" FetchingParent="@7" />
+    <Link Source="@7" Target="@48" Category="Contains" FetchingParent="@7" />
+    <Link Source="@9" Target="@22" Category="Implements" Bounds="1164.1572265625,21.3473129272461,178.8427734375,351.00269317627" Weight="1" />
+    <Link Source="_standardGraphExternalsGroup" Target="@20" Category="Contains" />
+    <Link Source="_standardGraphExternalsGroup" Target="@35" Category="Contains" />
+    <Link Source="保存连接信息" Target="@13" Bounds="319.371673583984,261.692718505859,40.4866638183594,312.704803466797" />
+    <Link Source="保存连接信息" Target="@38" Bounds="366.188080462218,415.794056026398,65.201838425365,158.60340002829" />
+    <Link Source="保存连接信息" Target="@42" Bounds="380.635893674121,412.33598558779,252.157036668755,162.061470466898" />
+    <Link Source="保存连接信息" Target="@44" Bounds="175.109484493,413.609176085809,172.362105524966,160.788279968878" />
+    <Link Source="和sql有关" Target="@16" Bounds="773,401.162963867188,90.1216430664063,345.402038574219" />
+    <Link Source="和sql有关" Target="@17" Bounds="687.454711914063,637.407470703125,71.80078125,109.157531738281" />
+    <Link Source="和sql有关" Target="@22" Bounds="809.211669921875,18.2471294403076,671.788330078125,739.482057571411" />
+    <Link Source="和sql有关" Target="@23" Bounds="284,75.307746887207,452.788330078125,681.769462585449" />
+    <Link Source="和sql有关" Target="@24" Bounds="1,129.469619750977,735.788330078125,628.380233764648" />
+    <Link Source="和sql有关" Target="@7" Bounds="797.775634765625,718.962463378906,54.1895141601563,27.6025390625" />
+    <Link Source="和sql有关" Target="@9" Bounds="809.211669921875,401.696624755859,639.788330078125,355.963653564453" />
+  </Links>
+  <Categories>
+    <Category Id="CallStackEntry" Label="调用堆栈入口" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="调用堆栈入口" />
+    <Category Id="CodeSchema_Calls" Label="调用" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="调用者" OutgoingActionLabel="调用" />
+    <Category Id="CodeSchema_Class" Label="类" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="类" />
+    <Category Id="CodeSchema_Field" Label="字段" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="字段" />
+    <Category Id="CodeSchema_FieldRead" Label="字段读取" BasedOn="CodeSchema_FieldReference" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="读取方" OutgoingActionLabel="读取字段" />
+    <Category Id="CodeSchema_FieldReference" Label="字段引用" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="引用方" OutgoingActionLabel="引用字段" />
+    <Category Id="CodeSchema_Interface" Label="接口" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Interface" NavigationActionLabel="接口" />
+    <Category Id="CodeSchema_Member" Label="编号" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="成员" />
+    <Category Id="CodeSchema_Method" Label="方法" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="方法" />
+    <Category Id="CodeSchema_Property" Label="属性" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Property" NavigationActionLabel="属性" />
+    <Category Id="CodeSchema_ReturnTypeLink" Label="返回" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="返回类型" OutgoingActionLabel="返回类型" />
+    <Category Id="CodeSchema_SourceLocation" Label="源位置" Icon="File" />
+    <Category Id="CodeSchema_Type" Label="类型" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="类型" />
+    <Category Id="Comment" Label="注释" Description="表示在图表中用户定义的注释" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="注释" />
+    <Category Id="Contains" Label="包含" Description="链接的源是否包含目标对象" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="包含者" IsContainment="True" OutgoingActionLabel="包含" />
+    <Category Id="Externals" Label="外部" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="外部" />
+    <Category Id="Implements" Label="实现" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="实现者" OutgoingActionLabel="实现" />
+    <Category Id="InheritsFrom" Label="继承自" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="继承者" OutgoingActionLabel="继承自" />
+    <Category Id="References" Label="引用" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="引用者" OutgoingActionLabel="引用" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsAbstract" Label="是抽象的" Description="一个标志，用于指示该成员是“抽象”成员且不提供完整实现" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsExternal" Label="是外部的" Description="一个标志，用于指示此节点是否被认为是外部的" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsFinal" Label="是最终的" Description="一个标志，用于指示该成员是“最终”成员且不能从其派生" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsInternal" Label="是内部的" Description="一个标志，用于指示该方法是“内部”方法" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="是私有的" Description="一个标志，用于指示该范围是“私有”范围" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsProtected" Label="是受保护的" Description="一个标志，用于指示该范围是“受保护”范围" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="是公共的" Description="一个标志，用于指示该范围是“公共”范围" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsVirtual" Label="是虚拟的" Description="一个标志，用于指示可以重写该方法" DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="DataVirtualized" Label="已虚拟化数据" Description="如果为 true，则图中可以包含表示虚拟化节点/链接(即，不在图中实际创建)的数据的节点和链接。" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="DelayedChildNodesState" Label="延迟的子节点状态" Description="如果未指定延迟的子节点状态，则为 Unspecified。如果尚未将组包含的子节点提取到关系图中，则为 NotFetched。如果已提取组内的所有延迟的子节点，则为 Fetched。" DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="DelayedCrossGroupLinksState" Label="延迟的跨组链接状态" Description="如果未指定延迟的跨组链接状态，则为 Unspecified。如果尚未将此节点上延迟的跨组链接提取到关系图中，则为 NotFetched。如果已提取所有延迟的跨组链接，则为 Fetched。" DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="FetchingParent" DataType="Microsoft.VisualStudio.GraphModel.GraphNodeId" />
+    <Property Id="FunctionTypeFlags" Label="FunctionTypeFlags" Description="FunctionTypeFlags" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="Group" Label="组" Description="将节点显示为组" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="图标" Description="图标" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsCodeType" Label="IsCodeType" Description="IsCodeType" DataType="System.Boolean" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsOverloaded" Label="IsOverloaded" Description="IsOverloaded" DataType="System.Boolean" />
+    <Property Id="IsOverridable" Label="IsOverridable" Description="IsOverridable" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="IsSourceVirtualized" Label="已虚拟化链接源" Description="如果为 true，则链接源端包含虚拟化节点/链接(即，不在图中实际创建)的数据。" DataType="System.Boolean" />
+    <Property Id="IsTargetVirtualized" Label="已虚拟化链接目标" Description="如果为 true，则链接目标端包含虚拟化节点/链接(即，不在图中实际创建)的数据。" DataType="System.Boolean" />
+    <Property Id="Label" Label="标签" Description="可批注对象的可显示标签" DataType="System.String" />
+    <Property Id="Language" Label="语言" Description="语言" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="MustImplement" Label="MustImplement" Description="MustImplement" DataType="System.Boolean" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="起始行号" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+    <Property Id="Weight" Label="粗细" Description="粗细" DataType="System.Double" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="程序集" ValueType="Uri" />
+    <Name Id="GenericParameterCount" Label="泛型形参计数" ValueType="System.String" />
+    <Name Id="Member" Label="编号" ValueType="System.Object" />
+    <Name Id="Name" Label="名称" ValueType="System.String" />
+    <Name Id="Namespace" Label="命名空间" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="参数" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="Type" Label="类型" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="4" Uri="Assembly=$(e06d1c12-efe8-4413-a15c-ae01fc158f2f.OutputPathUri)" />
+    <Alias n="5" Id="Namespace=System.Data.Entity.Infrastructure" />
+    <Alias n="6" Id="Type=(Name=DbQuery GenericParameterCount=1)" />
+    <Alias n="7" Id="(@4 @5 @6)" />
+    <Alias n="8" Id="Namespace=System.Data.Entity.Internal.Linq" />
+    <Alias n="9" Id="(@4 @8 Type=(Name=IInternalQuery GenericParameterCount=1))" />
+    <Alias n="10" Uri="Assembly=$(3d65611f-e8fb-4a33-9196-7836969d6378.OutputPathUri)" />
+    <Alias n="11" Id="Namespace=SimpleModel" />
+    <Alias n="12" Id="(@10 @11 Type=Category)" />
+    <Alias n="13" Id="(@4 @5 Type=DbConnectionInfo)" />
+    <Alias n="14" Id="(@4 Namespace=System.Data.Entity Type=DbContext)" />
+    <Alias n="15" Id="(@4 Namespace=System.Data.Entity Type=DbModelBuilder)" />
+    <Alias n="16" Id="(@4 @8 Type=DbQueryProvider)" />
+    <Alias n="17" Id="(@4 @8 Type=DbQueryVisitor)" />
+    <Alias n="18" Uri="Assembly=$(VsSolutionUri)/test/EntityFramework/FunctionalTests/bin/Debug/EntityFramework.FunctionalTests.dll" />
+    <Alias n="19" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/System.Core.dll" />
+    <Alias n="20" Id="(@19 Namespace=System.Linq.Expressions Type=ExpressionVisitor)" />
+    <Alias n="21" Id="(@10 Namespace=System.Data.Entity Type=FunctionalTestBase)" />
+    <Alias n="22" Id="(@4 @8 Type=IInternalQuery)" />
+    <Alias n="23" Id="(@4 @8 Type=IInternalSet)" />
+    <Alias n="24" Id="(@4 @8 Type=IInternalSetAdapter)" />
+    <Alias n="25" Id="Namespace=System.Data.Entity.Internal" />
+    <Alias n="26" Id="(@4 @25 Type=InternalConnection)" />
+    <Alias n="27" Id="Type=InternalContext" />
+    <Alias n="28" Id="(@4 @25 @27)" />
+    <Alias n="29" Id="(@4 @25 Type=LazyInternalConnection)" />
+    <Alias n="30" Id="(@4 @25 Type=LazyInternalContext)" />
+    <Alias n="31" Id="(@10 @11 Type=Product)" />
+    <Alias n="32" Id="(@10 @11 Type=SimpleModelContext)" />
+    <Alias n="33" Id="(@4 @5 Type=SqlConnectionFactory)" />
+    <Alias n="34" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/System.Data.dll" />
+    <Alias n="35" Id="(@34 Namespace=System.Data.SqlClient Type=SqlConnectionStringBuilder)" />
+    <Alias n="36" Id="(@4 @8 Type=DbQueryVisitor Member=(Name=VisitMethodCall OverloadingParameters=[(@19 Namespace=System.Linq.Expressions Type=MethodCallExpression)]))" />
+    <Alias n="37" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll" />
+    <Alias n="38" Id="(@4 @5 Type=SqlConnectionFactory Member=(Name=CreateConnection OverloadingParameters=[(@37 Namespace=System Type=String)]))" />
+    <Alias n="39" Id="(@4 @5 @6 Member=(Name=GetInternalQueryWithCheck OverloadingParameters=[(@37 Namespace=System Type=String)]))" />
+    <Alias n="40" Id="(@4 @25 @27 Member=(Name=Set OverloadingParameters=[(@37 Namespace=System Type=Type)]))" />
+    <Alias n="41" Id="(@4 @25 @27 Member=_genericSets)" />
+    <Alias n="42" Id="(@4 @25 Type=LazyInternalContext Member=_internalConnection)" />
+    <Alias n="43" Id="(@4 @5 @6 Member=_internalQuery)" />
+    <Alias n="44" Id="(@4 @25 Type=LazyInternalConnection Member=Initialize)" />
+    <Alias n="45" Id="(@4 @25 @27 Member=ResetDbSets)" />
+    <Alias n="46" Id="(@4 @5 @6 Member=System.Linq.IQueryable.Expression)" />
+    <Alias n="47" Id="(@4 @5 @6 Member=System.Linq.IQueryable.get_Provider)" />
+    <Alias n="48" Id="(@4 @5 @6 Member=System.Linq.IQueryable.Provider)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Link" GroupLabel="Current Call Stack Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CurrentCallStackCall')" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+      <Setter Property="Weight" Value="1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Indirect Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackIndirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+      <Setter Property="StrokeDashArray" Value="4 1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Direct Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackDirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="External And Current" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('ExternalCallStackEntry') And HasCategory('CurrentCallStackEntry')" />
+      <Setter Property="Background" Value="#FFFFF8F0" />
+      <Setter Property="Stroke" Value="#FFCE5100" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="当前调用堆栈节点" ValueLabel="True">
+      <Condition Expression="HasCategory('CurrentCallStackEntry') And !HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFFFE3C6" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="外部调用堆栈入口" ValueLabel="True">
+      <Condition Expression="HasCategory('ExternalCallStackEntry')" />
+      <Setter Property="Background" Value="#FFF7F7F7" />
+      <Setter Property="StrokeDashArray" Value="1 3" />
+      <Setter Property="Foreground" Value="#FFA5A5A5" />
+      <Setter Property="Stroke" Value="#FFA5A5A5" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="结果" ValueLabel="True">
+      <Condition Expression="HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFBCFFBE" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="程序集" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#FF094167" />
+      <Setter Property="Stroke" Value="#FF094167" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="命名空间" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#FF0E619A" />
+      <Setter Property="Stroke" Value="#FF0E619A" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="接口" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="结构" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="枚举" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="委托" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="类" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="属性" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="方法" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Method') Or HasCategory('CodeSchema_CallStackUnresolvedMethod')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="事件" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="字段" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Out Parameter" ValueLabel="True">
+      <Condition Expression="CodeSchemaProperty_IsOut = 'True'" />
+      <Setter Property="Icon" Value="CodeSchema_OutParameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Parameter" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_Parameter')" />
+      <Setter Property="Icon" Value="CodeSchema_Parameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Local Variable" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_LocalExpression')" />
+      <Setter Property="Icon" Value="CodeSchema_LocalExpression" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="外部" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FF424242" />
+      <Setter Property="Stroke" Value="#FF424242" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('InheritsFrom') And Target.HasCategory('CodeSchema_Class')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('Implements') And Target.HasCategory('CodeSchema_Interface')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Field Read" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Target.HasCategory('CodeSchema_Field') And HasCategory('CodeSchema_FieldRead')" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Comment Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Source.HasCategory('Comment')" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Cursor Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCursorLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Disabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="DisabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="EnabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Instruction Pointer Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsInstructionPointerLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Callstack Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCurrentCallstackFrame" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="注释" ValueLabel="包含注释">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="3d65611f-e8fb-4a33-9196-7836969d6378.OutputPath" Value="E:\Workspace\Git\EntityFramework6\test\EntityFramework\FunctionalTests.Transitional\bin\Debug\EntityFramework.FunctionalTests.Transitional.dll" />
+    <Path Id="3d65611f-e8fb-4a33-9196-7836969d6378.OutputPathUri" Value="file:///E:/Workspace/Git/EntityFramework6/test/EntityFramework/FunctionalTests.Transitional/bin/Debug/EntityFramework.FunctionalTests.Transitional.dll" />
+    <Path Id="e06d1c12-efe8-4413-a15c-ae01fc158f2f.OutputPathUri" Value="file:///E:/Workspace/Git/EntityFramework6/bin/Debug/EntityFramework.dll" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
+    <Path Id="VsSolution" Value="E:\Workspace\Git\EntityFramework6" />
+    <Path Id="VsSolutionUri" Value="file:///E:/Workspace/Git/EntityFramework6" />
+  </Paths>
+</DirectedGraph>

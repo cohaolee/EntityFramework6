@@ -5,7 +5,7 @@ namespace System.Data.Entity.Core.Common.CommandTrees
     using System.Data.Entity.Core.Metadata.Edm;
     using System.Data.Entity.Utilities;
 
-    /// <summary>Represents the set intersection operation between the left and right operands. This class cannot be inherited. </summary>
+    /// <summary>交集表达式 Represents the set intersection operation between the left and right operands. This class cannot be inherited. </summary>
     /// <remarks>
     /// DbIntersectExpression requires that its arguments have a common collection result type
     /// </remarks>

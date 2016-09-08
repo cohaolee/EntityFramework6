@@ -5,7 +5,7 @@ namespace System.Data.Entity.Core.Common.CommandTrees
     using System.Data.Entity.Core.Metadata.Edm;
     using System.Data.Entity.Utilities;
 
-    /// <summary>Implements the basic functionality required by expressions that accept two expression operands.</summary>
+    /// <summary>二元表达式 Implements the basic functionality required by expressions that accept two expression operands.</summary>
     public abstract class DbBinaryExpression : DbExpression
     {
         private readonly DbExpression _left;

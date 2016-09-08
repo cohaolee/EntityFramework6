@@ -1,5 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{6A921FFC-887B-4406-A3E6-8E41817020B5}"
 	ProjectSection(SolutionItems) = preProject
 		src\EcmaPublicKey.snk = src\EcmaPublicKey.snk
@@ -88,6 +90,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{1075182E-E604-443F-B3E4-37117A0D71E6}"
 	ProjectSection(SolutionItems) = preProject
 		src\NuGet\EntityFramework.SqlServerCompact.Legacy\tools\install.ps1 = src\NuGet\EntityFramework.SqlServerCompact.Legacy\tools\install.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D70D28E2-F056-42A1-9C02-5BAF9CFF79F4}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
 Global

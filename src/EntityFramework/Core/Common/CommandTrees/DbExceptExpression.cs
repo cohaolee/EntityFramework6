@@ -6,7 +6,7 @@ namespace System.Data.Entity.Core.Common.CommandTrees
     using System.Data.Entity.Utilities;
     using System.Diagnostics;
 
-    /// <summary>Represents the set subtraction operation between the left and right operands. This class cannot be inherited. </summary>
+    /// <summary>ÅÅ³ý±í´ïÊ½ Represents the set subtraction operation between the left and right operands. This class cannot be inherited. </summary>
     public sealed class DbExceptExpression : DbBinaryExpression
     {
         internal DbExceptExpression(TypeUsage resultType, DbExpression left, DbExpression right)
